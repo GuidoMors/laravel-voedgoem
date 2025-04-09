@@ -1,0 +1,1 @@
+php artisan serve --port=3333 --host=0.0.0.0
