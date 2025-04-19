@@ -18,3 +18,24 @@ remove all obsolete login and cookie handling
 -theres some outdated code in login.js, probably alaso good to double check server.js
 
 CTRL+F TO DO
+
+WRITE README:
+SETUP
+-install npm
+-install php 
+--https://windows.php.net/download#php-8.4 for windows
+--set php in system variables PATH
+-install composer
+-composer install on main
+-npm install on main
+-npm install on node
+-php artisan migrate (for the database)
+-make .env file
+--make copy of .env.example titled .env
+--set APP_KEY
+
+HOW TO ADD A GAME
+-laravel setup
+--add routing in web.php
+--add the page in resources/js/pages
+-node.js setup

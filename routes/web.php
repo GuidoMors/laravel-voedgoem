@@ -16,10 +16,6 @@ $games = [
 Route::middleware('auth')->group(function () use ($games) {
 
     Route::get('/', function () use ($games) {
-        $user = Auth::user();
-        if ($user && in_array($user->game_type, $games)) {
-            return redirect()->route($user->game_type);
-        }
         return Inertia::render('index', [
             'game' => 'index',
             'user' => Auth::user(),
@@ -42,10 +38,6 @@ Route::post('/logout', function (Request $request) {
     $request->session()->regenerateToken();
     return redirect()->route('login');
 })->name('logout');
-
-Route::get('/login', function () {
-    return Inertia::render('auth/login');
-})->name('login');
 
 require __DIR__.'/settings.php';
 require __DIR__.'/auth.php';

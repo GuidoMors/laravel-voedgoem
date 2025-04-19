@@ -81,7 +81,7 @@
 
 .voedgoem-title {
   margin: 0 auto;
-  margin-bottom: 45px;
+  margin-bottom: 8vh;
   width: fit-content;
   width: -moz-fit-content;
   font-size: 14.7vw;
@@ -96,8 +96,9 @@
 }
 
 .qrDiv {
+  top: unset;
+  bottom: max(3vw, 30px) !important;
 position: relative;
-top: 75px;
 display: flex;
 margin-top: 5vw;
 color: white;
@@ -132,7 +133,7 @@ height: auto;
 
 @font-face {
 font-family: 'bigfont';
-src: url(../fonts/Arcade.ttf);
+src: url(/fonts/Arcade.ttf);
 }
 
 @font-face {
@@ -149,6 +150,7 @@ align-items: center;
 height: 100vh;
 position: fixed;
 width: 100vw;
+color:white;
 }
 
 input {
@@ -192,10 +194,6 @@ background: white;
 .neonwhite.neonborder {
 box-shadow: 0 0 1em 0 white, inset 0 0 1em 0 white;
 border: 4px white solid;
-}
-
-.neonwhite.neonborder::after {
-box-shadow: 0 0 2em 1em white;
 }
 
 .neonwhite.neonborder::after {
@@ -270,6 +268,8 @@ top: 0;
 bottom: 0;
 left: 0;
 right: 0;
+width:fit-content;
+height:fit-content;
 }
 
 .BigButton {
@@ -322,11 +322,10 @@ left: 0;
 }
 
 .qrDiv {
-  top:30 !important;
-  width: 50px !important;
-  height: 50px !important;
-  min-width: 50px !important;
-  min-height: 50px !important;
+  width: max(15vw,150px) !important;
+  height: max(15vw,150px) !important;
+  min-width: max(15vw,150px) !important;
+  min-height: max(15vw,150px) !important;
 }
 }
 

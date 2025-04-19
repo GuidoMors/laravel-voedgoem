@@ -1,6 +1,6 @@
 import { Head, useForm } from '@inertiajs/react';
 import { LoaderCircle } from 'lucide-react';
-import { FormEventHandler } from 'react';
+import { FormEventHandler, useEffect } from 'react';
 import QRCode from 'react-qr-code';
 
 import InputError from '@/components/input-error';
@@ -10,6 +10,8 @@ import { Checkbox } from '@/components/ui/checkbox';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import AuthLayout from '@/layouts/auth-layout';
+
+import { loadStyle, loadScript} from '@/utils';
 
 type LoginForm = {
     name: string;
@@ -24,7 +26,7 @@ interface LoginProps {
 
 export default function Login({ status, canResetPassword }: LoginProps) {
     const { data, setData, post, processing, errors, reset } = useForm<Required<LoginForm>>({
-        email: '',
+        name: '',
         password: '',
         remember: false,
     });
@@ -36,13 +38,17 @@ export default function Login({ status, canResetPassword }: LoginProps) {
         });
     };
 
+    useEffect(() => {
+        loadStyle('http://localhost:2222/static/common/css/index.css');
+    }, []); 
+
     const currentUrl = window.location.href;
 
     return (
-        <AuthLayout title="Log in to your account" description="Enter your email and password below to log in">
+        <AuthLayout title="Log in to your account" description="Enter your username and password below to log in">
             <Head title="Log in" />
 
-            <form className="flex flex-col gap-6 mt-7" onSubmit={submit}>
+            <form className="flex flex-col gap-6 mt-flex" onSubmit={submit}>
                 <div className="grid gap-6">
                     <div className="grid gap-2">
                         <Input

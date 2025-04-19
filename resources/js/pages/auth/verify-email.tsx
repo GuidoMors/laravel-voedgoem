@@ -1,11 +1,13 @@
 // Components
 import { Head, useForm } from '@inertiajs/react';
 import { LoaderCircle } from 'lucide-react';
-import { FormEventHandler } from 'react';
+import { FormEventHandler, useEffect } from 'react';
 
 import TextLink from '@/components/text-link';
 import { Button } from '@/components/ui/button';
 import AuthLayout from '@/layouts/auth-layout';
+
+import { loadStyle, loadScript} from '@/utils';
 
 export default function VerifyEmail({ status }: { status?: string }) {
     const { post, processing } = useForm({});
@@ -15,6 +17,10 @@ export default function VerifyEmail({ status }: { status?: string }) {
 
         post(route('verification.send'));
     };
+
+    useEffect(() => {
+        loadStyle('http://localhost:2222/static/common/css/index.css');
+    }, []); 
 
     return (
         <AuthLayout title="Verify email" description="Please verify your email address by clicking on the link we just emailed to you.">

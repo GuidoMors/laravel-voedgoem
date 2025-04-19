@@ -78,7 +78,7 @@
 }
 
 :root {
-    --background: oklch(1 0 0);
+    --background: oklch(0 0 0 0);
     --foreground: oklch(0.145 0 0);
     --card: oklch(1 0 0);
     --card-foreground: oklch(0.145 0 0);
@@ -146,4 +146,14 @@
     --sidebar-accent-foreground: oklch(0.985 0 0);
     --sidebar-border: oklch(0.269 0 0);
     --sidebar-ring: oklch(0.439 0 0);
+}
+
+@font-face {
+    font-family: 'bigfont';
+    src: url(../fonts/Arcade.ttf);
+    }
+    
+@font-face {
+    font-family: 'smallfont';
+    src: url(../fonts/BalsamiqSans-Regular.ttf);
 }

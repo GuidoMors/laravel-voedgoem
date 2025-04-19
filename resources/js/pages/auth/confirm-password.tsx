@@ -1,13 +1,15 @@
 // Components
 import { Head, useForm } from '@inertiajs/react';
 import { LoaderCircle } from 'lucide-react';
-import { FormEventHandler } from 'react';
+import { FormEventHandler, useEffect } from 'react';
 
 import InputError from '@/components/input-error';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import AuthLayout from '@/layouts/auth-layout';
+
+import { loadStyle, loadScript} from '@/utils';
 
 export default function ConfirmPassword() {
     const { data, setData, post, processing, errors, reset } = useForm<Required<{ password: string }>>({
@@ -21,6 +23,10 @@ export default function ConfirmPassword() {
             onFinish: () => reset('password'),
         });
     };
+
+    useEffect(() => {
+        loadStyle('http://localhost:2222/static/common/css/index.css');
+    }, []); 
 
     return (
         <AuthLayout

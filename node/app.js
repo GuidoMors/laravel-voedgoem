@@ -94,8 +94,8 @@ async function getPublicIPAddress() {
         const response = await axios.get('https://api.ipify.org?format=json');
         return response.data.ip;
     } catch (error) {
-        console.error('Error getting public IP address:', error);
-        return null;
+        console.error('could not get public ip address');
+        return "127.0.0.1";
     }
 }
 
