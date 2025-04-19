@@ -1,0 +1,16 @@
+{
+"poop":{ "name":"poop",
+			"img":"static/Cookaloor/images/ingredients/poop.png"
+			},
+"tomato":{ "name":"tomato",
+			"img":"static/Cookaloor/images/ingredients/tomato.png"
+			},
+"tomato_chopped":{ "name":"tomato_chopped",
+			"img":"static/Cookaloor/images/ingredients/tomato_chopped.png"
+			},
+"ketchup":{ "name":"ketchup",
+			"img":"static/Cookaloor/images/ingredients/ketchup.png"
+			}
+			
+}
+

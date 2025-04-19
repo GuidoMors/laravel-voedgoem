@@ -1,6 +1,7 @@
 import { Head, useForm } from '@inertiajs/react';
 import { LoaderCircle } from 'lucide-react';
 import { FormEventHandler } from 'react';
+import QRCode from 'react-qr-code';
 
 import InputError from '@/components/input-error';
 import TextLink from '@/components/text-link';
@@ -11,7 +12,7 @@ import { Label } from '@/components/ui/label';
 import AuthLayout from '@/layouts/auth-layout';
 
 type LoginForm = {
-    email: string;
+    name: string;
     password: string;
     remember: boolean;
 };
@@ -35,34 +36,34 @@ export default function Login({ status, canResetPassword }: LoginProps) {
         });
     };
 
+    const currentUrl = window.location.href;
+
     return (
         <AuthLayout title="Log in to your account" description="Enter your email and password below to log in">
             <Head title="Log in" />
 
-            <form className="flex flex-col gap-6" onSubmit={submit}>
+            <form className="flex flex-col gap-6 mt-7" onSubmit={submit}>
                 <div className="grid gap-6">
                     <div className="grid gap-2">
-                        <Label htmlFor="email">Email address</Label>
                         <Input
-                            id="email"
-                            type="email"
+                            id="name"
+                            type="text"
                             required
                             autoFocus
                             tabIndex={1}
-                            autoComplete="email"
-                            value={data.email}
-                            onChange={(e) => setData('email', e.target.value)}
-                            placeholder="email@example.com"
+                            autoComplete="name"
+                            value={data.name}
+                            onChange={(e) => setData('name', e.target.value)}
+                            placeholder="Name"
                         />
-                        <InputError message={errors.email} />
+                        <InputError message={errors.name} />
                     </div>
 
                     <div className="grid gap-2">
                         <div className="flex items-center">
-                            <Label htmlFor="password">Password</Label>
                             {canResetPassword && (
                                 <TextLink href={route('password.request')} className="ml-auto text-sm" tabIndex={5}>
-                                    Forgot password?
+                                    Forgot?
                                 </TextLink>
                             )}
                         </div>
@@ -90,14 +91,13 @@ export default function Login({ status, canResetPassword }: LoginProps) {
                         <Label htmlFor="remember">Remember me</Label>
                     </div>
 
-                    <Button type="submit" className="mt-4 w-full" tabIndex={4} disabled={processing}>
+                    <Button type="submit" className="loginButton neonborder neonbutton neongreen BigButton" tabIndex={4} disabled={processing}>
                         {processing && <LoaderCircle className="h-4 w-4 animate-spin" />}
                         Log in
                     </Button>
                 </div>
 
                 <div className="text-muted-foreground text-center text-sm">
-                    Don't have an account?{' '}
                     <TextLink href={route('register')} tabIndex={5}>
                         Sign up
                     </TextLink>
@@ -105,6 +105,10 @@ export default function Login({ status, canResetPassword }: LoginProps) {
             </form>
 
             {status && <div className="mb-4 text-center text-sm font-medium text-green-600">{status}</div>}
+
+            <div className="qrDiv neonwhite neonborder">
+                <QRCode value={currentUrl} size={256} />
+            </div>
         </AuthLayout>
     );
 }

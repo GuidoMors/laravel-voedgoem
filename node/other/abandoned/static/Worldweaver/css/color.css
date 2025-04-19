@@ -1,0 +1,212 @@
+:root {
+  --orange:rgb(253, 209, 63);
+  --activeorange: rgb(233, 153, 3);
+  --passiveorange: rgb(160, 123, 53);
+  --aggressiveorange: rgb(233, 49, 3);
+  --teal: rgb(65, 236, 236);
+
+  --log:rgb(233, 213, 170);
+  --log1:rgb(226, 212, 159);
+  --log2: rgb(233, 213, 170);
+
+  --ocean:rgb(41, 102, 182);
+  --forest:rgb(15, 119, 32); 
+  --mountain:rgb(123, 126, 131); 
+  --plains:rgb(155, 228, 59); 
+
+  --backplate:rgb(31, 34, 36);
+  --frontplate:rgb(73, 70, 59);
+
+  --speed:rgb(23, 104, 211);
+  --strength:rgb(196, 27, 36);
+
+  --grey:rgb(155, 152, 143);
+  --white: rgb(231, 224, 202);
+  --red: rgb(187, 32, 5);
+  --green: rgb(15, 124, 51);
+  --blue: rgb(28, 30, 173);
+  --purple: rgb(113, 54, 128);
+  --yellow: rgb(219, 183, 62);
+  --whiteblue: rgb(160, 212, 224);
+  --pink: rgb(207, 133, 236);
+  --brown: rgb(131, 67, 14);
+}
+
+.textaggressive {
+  color: var(--aggressiveorange)!important;
+}
+
+.aggressive {
+  background-color: var(--aggressiveorange)!important;
+}
+
+
+.black {
+  background-color: black!important;
+}
+
+.frontplate {
+  background-color: var(--frontplate)!important;
+}
+
+.textfrontplate {
+  color: var(--frontplate)!important;
+}
+
+.frontplateborder {
+  border: solid var(--backplate) !important;
+  
+}
+
+.backplate {
+  background-color: var(--backplate)!important;
+}
+
+.textbackplate {
+  background-color: var(--backplate)!important;
+}
+
+
+.backplateborder {
+  border: solid var(--backplate) !important;
+  
+}
+
+.textblack {
+  color: black!important;
+}
+
+.grey {
+  background-color: var(--grey)!important;
+}
+
+.greyborder {
+  border: solid var(--grey) !important;
+  
+}
+
+.mountaingrey {
+  background-color: var(--mountain)!important;
+}
+
+.textgrey {
+  color: var(--grey)!important;
+}
+
+.white {
+  background-color: var(--white)!important;
+}
+
+.textwhite {
+  color: var(--white)!important;
+}
+
+.whiteborder {
+  border: solid var(--white) !important;
+  
+}
+
+.red {
+  background-color: var(--red)!important;
+}
+
+.textred {
+  color: var(--red)!important;
+}
+
+.redborder {
+  border: solid var(--red) !important;
+  
+}
+
+.green {
+  background-color: var(--green)!important;
+}
+
+.textgreen {
+  color: var(--green)!important;
+}
+
+.greenborder {
+  border: solid var(--green) !important;
+  
+}
+
+.blue {
+  background-color: var(--blue)!important;
+}
+
+.textblue {
+  color: var(--blue)!important;
+}
+
+.blueborder {
+  border: solid var(--blue) !important;
+  
+}
+
+.purple {
+  background-color: var(--purple)!important;
+}
+
+.textpurple {
+  color: var(--purple)!important;
+}
+
+.purpleborder {
+  border: solid var(--purple) !important;
+  
+}
+
+.yellow {
+  background-color: var(--yellow)!important;
+}
+
+.textyellow {
+  color: var(--yellow)!important;
+}
+
+.yellowborder {
+  border: solid var(--yellow) !important;
+  
+}
+
+.whiteblue {
+  background-color: var(--whiteblue)!important;
+}
+
+.textwhiteblue {
+  color: var(--whiteblue)!important;
+}
+
+.whiteblueborder {
+  border: solid var(--whiteblue) !important;
+  
+}
+
+.pink {
+  background-color: var(--pink)!important;
+}
+
+.textpink {
+  color: var(--pink)!important;
+}
+
+.pinkborder {
+  border: solid var(--pink) !important;
+  
+}
+
+.brown {
+  background-color: var(--brown)!important;
+}
+
+.textbrown {
+  color: var(--brown)!important;
+}
+
+.brownborder {
+  border: solid var(--brown) !important;
+  
+}
+

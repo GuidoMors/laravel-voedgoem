@@ -1,0 +1,1026 @@
+:root {
+  --gradientred: linear-gradient(
+    140deg,
+    rgb(197, 47, 27),
+    rgb(150, 76, 47),
+    rgb(99, 86, 53)
+  );
+
+  --gradientblue: linear-gradient(
+    140deg,
+    rgb(27, 38, 197),
+    rgb(47, 121, 150),
+    rgb(53, 86, 99)
+  );
+
+  --gradientgreen: linear-gradient(
+    140deg,
+    rgb(23, 179, 9),
+    rgb(52, 148, 73),
+    rgb(53, 99, 63)
+  );
+
+  --gradientneutral: linear-gradient(
+    140deg,
+    rgb(231, 225, 110),
+    rgb(173, 182, 120),
+    rgb(122, 126, 113)
+  );
+}
+
+@font-face {
+  font-family: 'mainfont';
+  src: url(../fonts/VT323-Regular.ttf);
+}
+
+body {
+  background-image: var(--gradientneutral);
+}
+
+input {
+  font-family: 'mainfont';
+}
+
+.backgroundneutral {
+  background-image: var(--gradientneutral);
+  background-size: cover;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+.backgroundred {
+ 
+  background-image: var(--gradientred);
+  background-size: cover;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+.backgroundblue {
+  background-image: var(--gradientblue);
+  background-size: cover;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+.backgroundgreen {
+  background-image: var(--gradientgreen);
+  background-size: cover;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+.brown {
+  background-color: rgb(255, 228, 196);
+  color: black;
+  border: 2px solid rgb(74, 75, 78); 
+}
+
+.empty {
+  background-color: transparent;
+  color: black;
+  border: 0px;
+}
+
+.red {
+  border: 0px;
+  background-color: rgb(206, 75, 35);
+  color: white;
+}
+
+.darkred {
+  border: 0px;
+  background-color: rgb(117, 15, 11);
+  color: white;
+}
+
+.spyred {
+  border: 0px;
+  background-color: rgb(206, 75, 35);
+  border: 5px solid rgb(117, 15, 11);
+  color: white;
+}
+
+.darkblue {
+  border: 0px;
+  background-color: rgb(16, 85, 165);
+  color: white;
+}
+
+.spyblue {
+  background-color: rgb(64, 136, 219);
+  border: 5px solid rgb(16, 85, 165);
+  color: white;
+}
+
+.darkgreen {
+  border: 0px;
+  background-color: rgb(89, 129, 25);
+  color: white;
+}
+
+.spygreen {
+  border: 0px;
+  background-color: rgb(79, 212, 67);
+  border: 5px solid rgb(89, 129, 25);
+  color: white;
+}
+
+.redmaster {
+  background-color: #fa9573;
+  color: black;
+  border: 2px solid rgb(74, 75, 78); 
+}
+
+.redspecial {
+  background-image: radial-gradient(circle, #ce4b23, #e54c4d, #f45476, #fa649f, #f879c7);
+  color: black;
+  border: 5px solid rgb(206, 75, 35);
+}
+
+.blue {
+  border: 0px;
+  background-color: rgb(64, 136, 219);
+  color: white;
+}
+
+.bluemaster {
+  background-color: #4cc5d8;
+  color: black;
+  border: 2px solid rgb(74, 75, 78); 
+}
+
+.bluespecial {
+  background-image: radial-gradient(circle, #7edada, #51c8e7, #4db0ef, #7994e6, #a670c7);
+  color: black;
+  border: 5px solid rgb(64, 136, 219);
+}
+
+.green {
+  border: 0px;
+  background-color: rgb(79, 212, 67);
+  color: white;
+}
+
+.greenmaster {
+  background-color: #c4e780;
+  color: black;
+  border: 2px solid rgb(74, 75, 78); 
+}
+
+.greenspecial {
+  background-image: radial-gradient(circle, #8fce2a, #a4d92b, #bae32d, #d0ee2f, #e6f833);
+  color: black;
+  border: 5px solid rgb(143, 206, 42); 
+}
+
+.grey {
+  border: 0px;
+  background-color: rgb(126, 121, 114);
+  color: white;
+}
+
+.greymaster {
+  background-color: #9c9386;
+  color: black;
+  border: 2px solid rgb(74, 75, 78); 
+}
+
+.black {
+  border: 0px;
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+
+.blackmaster {
+  background-color: #56565e;
+  color: white;
+  border: 2px solid rgb(74, 75, 78); 
+}
+
+#left {
+  float: left;
+  width: 14%;
+  height: 98%;
+  position: absolute;
+  min-width: 150px;
+  top: 1%;
+}
+
+#right {
+  float:right; 
+  width:17%; 
+  height:99%; 
+  background-color: rgb(212, 185, 151);
+  border: 4px solid rgb(74, 75, 78); 
+  border-radius: 10px;
+}
+
+#middle {
+  position: absolute;
+  float: left;
+  width: 66%;
+  height: 98%;
+  justify-content: center;
+  margin-left: 15%;
+}
+
+@media (max-width: 1100px) {
+  #left {
+    position: relative;
+    float: left;
+    width: 45% !important;
+  }
+
+  #right {
+    position: relative;
+    float: right;
+    width: 45% !important;
+    margin-bottom: 2%;
+    height: clamp(600px, 100%, 100%);
+  }
+
+  #middle {
+    position: relative;
+    float: left;
+    width: 100% !important;
+    margin-left: 0 !important;
+    height: fit-content;
+    margin-bottom: 5%;
+  }
+
+  .qrDiv {
+    display: none;
+  }
+
+  #blueHintText, #redHintText, #greenHintText {
+    font-size: 15px !important;
+  }
+}
+
+
+.topbar {
+  margin-bottom: 5%;
+  display: block;
+  clear: both;
+  float: left;
+  height: 5%;
+  width: 100%;
+  z-index: 600;
+  position: relative;
+}
+
+.middlebar {
+  display: flex;
+  clear: both;
+  float: left;
+  height: 84%;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+
+.bottombar {
+  display: block;
+  clear: both;
+  float: left;
+  height: 5%;
+  width: 100%;
+}
+
+.leftmenu {
+  float:left;  
+  width:33%; 
+  height:100%; 
+  align-self: center;
+}
+
+.tapmessages {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: left;
+  font-family: 'mainfont';
+  color: white;
+  font-size: 10px;
+}
+
+.redhighlight {
+  margin: 1px;
+  display: inline-block;
+  padding: 3px;
+  height: auto;
+  border-radius: 3px;
+  background-color: rgb(206, 75, 35);
+}
+
+.purplehighlight {
+  margin: 1px;
+  display: inline-block;
+  padding: 3px;
+  height: auto;
+  border-radius: 3px;
+  background-color: rgb(109, 35, 206);
+}
+
+.bluehighlight {
+  margin: 1px;
+  display: inline-block;
+  padding: 3px;
+  height: auto;
+  border-radius: 3px;
+  background-color: rgb(64, 136, 219);
+}
+
+.greenhighlight {
+  margin: 1px;
+  display: inline-block;
+  padding: 3px;
+  height: auto;
+  border-radius: 3px;
+  background-color: rgb(42, 206, 50);
+}
+
+.rightmenu {
+  float:right; 
+  width:33%; 
+  height:100%; 
+  align-self: center;
+}
+
+.middlemenu {
+  float:left;  
+  width:34%; 
+  height:100%; 
+  align-self: center;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+.cardboard {    
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'mainfont';
+  font-size: 2rem;
+  table-layout:fixed;
+  width: 100%;
+  align-self: center; 
+  padding: 0px;  
+  border-spacing: 10px;
+  border-collapse: separate;
+  justify-content: center;
+}
+
+.cardboardcard {
+  position: relative;
+  white-space: normal;
+  word-wrap: break-word;
+  border-radius: 10px;
+  flex: 1 1 150px;
+  min-width: 145px;
+  min-height: 80px;
+  padding: 10px;
+  text-align: center;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: none;
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+@media (min-width: 675px) and (max-width: 1100px) {
+  .cardboardcard {
+    font-size: 19px;
+    min-width: 80px !important;
+    flex: 1 1 80px;
+    min-height: 50px;
+    padding: 3px;
+    border-radius: 8px;
+    margin: 4px;
+  }
+
+  .turncard {
+    font-size: 30px !important;
+  }
+}
+
+@media (max-width: 674px) {
+  .cardboardcard {
+    margin:2px;
+    font-size: 16px;
+    min-width: 70px !important;
+    flex: 1 1 70px;
+    min-height: 35px;
+    padding: 1px;
+    border-radius: 5px;
+  }
+}
+
+#turner {
+  border: 0;
+  margin: 0 auto;
+}
+
+.gameLog {
+  position: top;
+  background-color: rgb(255, 228, 196);
+  color: black;
+  align-self: center;
+  width:100%; 
+  height:90%; 
+  justify-content: center;
+  overflow-y: scroll;
+  float: left;
+  font-family: 'mainfont';
+  border-radius: 3px;
+  word-wrap: break-word;
+  font-size: 22px;
+}
+
+.playerStatsTable{
+	  
+  font-family: 'mainfont';
+  font-size: 8px;
+  width: 100%;
+  border: 1px solid grey;  
+  align-self: center; 
+  padding: 0px;  
+  border-spacing: 0px;
+  border-collapse: separate;
+
+}
+.playerStatsTd{
+  position: relative;
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: center;
+  border: 1px solid grey;  
+  height: 20px;
+  border-radius: 0px;
+  padding-top: 0px;   
+  padding-bottom: 0px;
+  font-size: 14px;
+}
+
+.playerStatsNameTd{
+	border: 1px solid grey;  
+  position: relative;
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: left; 
+  height: 10px;
+  border-radius: 1px;
+  padding-top: 0px;   
+  padding-bottom: 0px;
+  width: 50px!important;
+  font-size: 17px;
+}
+
+.playerStats {
+  border: 1px solid #bbb;  
+  position: top;
+  background-color: rgb(255, 228, 196);
+  color: black;
+  align-self: center;
+  width:100%; 
+  height:94%; 
+  justify-content: center;
+  float: left;
+  font-family: 'mainfont';
+  border-radius: 5px;
+  word-wrap: break-word;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.playerStatsEntryHeaderRow{
+	border: 1px solid #bbb;  
+	height: 130px!important;
+  background-color: rgb(241, 204, 134);
+}
+.vertical{
+	text-align:center;
+	vertical-align:bottom!important;
+	writing-mode: vertical-rl;
+	white-space:nowrap; 
+	-webkit-writing-mode: vertical-rl;
+	-ms-writing-mode: vertical-rl;	
+}
+
+.statsplayername{
+  margin-left: 40%;
+}
+
+.statstype{
+  margin-left:10%;
+}
+
+.playerStatsEntryHeader{
+  font-weight:normal;
+	border: 1px solid #bbb;  
+	font-family: 'mainfont';
+	font-size: 13px;
+	width: 15px;
+	/*text-align:center;
+	vertical-align:bottom;
+	text-orientation: mixed;
+	*/
+
+}
+
+#tabChat {
+  background: url(/static/Woerdgoem/images/chat.png), #ccc;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+}
+
+#tabStats {
+  background: url(/static/Woerdgoem/images/law.png), #ccc;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  
+}
+
+#tabPlayers {
+  background: #ccc;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  font-size: 1.2rem;
+}
+
+.playerStatsEntry{
+  border: 1px solid black;  
+	font-family: 'mainfont';
+	font-size: 14px;
+	height: 20px!important;
+  border: 1px;
+}
+
+.gameLog p:nth-child(odd) {
+  background-color: rgb(236, 213, 185);
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  border:solid rgb(236, 213, 185) 3px;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.gameLog p:nth-child(even) {
+  background-color: rgb(255, 228, 196);
+  border:solid rgb(255, 228, 196) 3px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.typeBox {
+  height: 4%;
+  width: 100%;
+  float:right;
+}
+
+.HintButton{
+  width:25%;
+  height: 100%;
+  float:right;
+  display: none;
+}
+
+.MessageButton{
+  width:20%;
+  height: 100%;
+  float:right;
+  display: none;
+} 
+
+.settingsbutton{
+  background: url(/static/Woerdgoem/images/settings.png), grey;
+  background-size: 100% 100%;
+  border-radius: 10px;
+}
+
+.inputAmount{
+  width:25%; 
+  height: 100%;
+  clear: none;
+  float:left;
+}
+
+.inputMessage{
+  width: 80%; 
+  height: 100%;
+  float: left;
+  display: none;
+}
+
+.inputHint{
+  width: 50%; 
+  height: 100%;
+  float: left;
+  display: none;
+}
+
+.timerSettings{
+  display: none;
+  width: 80%;
+  height: 100%;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  display: none;
+  float: left;
+  text-overflow: ellipsis;
+}
+
+.specialSettings {
+  display: none;
+  width: 80%;
+  height: 100%;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  display: none;
+  float: left;
+  text-overflow: ellipsis;
+}
+
+.boardSizeSettings{
+  width: 80%;
+  margin-top: 5%;
+  height: 40%;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  display: none;
+  float: left;
+  text-overflow: ellipsis;
+  margin-left: 10%;
+}
+.teamSizeSettings{
+  width: 80%;
+  height: 40%;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  display: none;
+  float: left;
+  text-overflow: ellipsis;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.redbox {
+  width: 100%;
+  height: clamp(200px, 100%, 100%);
+  background-color: rgb(155, 26, 9);
+  border: 5px solid rgb(74, 75, 78); 
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+
+.greendivider, .reddivider, .bluedivider {
+  width: 100%;
+  height: 29.5%;
+  display: block;
+  min-height: 170px;
+  margin-bottom: 0.5%;
+}
+
+.greenbox {
+  width: 100%;
+  height: clamp(200px, 100%, 100%);
+  background-color: rgb(48, 109, 13);
+  border: 5px solid rgb(74, 75, 78); 
+  border-radius: 10px;
+  display: none;
+}
+
+.bluebox {
+  width: 100%;
+  height: clamp(200px, 100%, 100%);
+  background-color: rgb(15, 70, 151);
+  border: 5px solid rgb(74, 75, 78); 
+  border-radius: 10px;
+  margin-bottom: 3%;
+}
+
+.invis {
+  display: none;
+  font-family: 'mainfont';
+  font-size: 25px;
+  width: 100%;
+  align-self: center;
+  color: white;
+}
+
+.tapmessages:hover + .invis {
+  display: block;
+}
+
+.cardboardcard:hover > .invis {
+  display: block;
+}
+
+.menudivider {
+  margin-bottom: 10%;
+  height: clamp(50px, 7%, 7%);
+}
+
+.menubox {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(46, 48, 51);
+  border: 5px solid rgb(74, 75, 78); 
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftmenu, .middlemenu, .rightmenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  flex: 1; 
+}
+
+.spybutton {
+  justify-content: center;
+  align-self: center;
+  float: left;
+  height:10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.spyplayers{
+  text-align: center;
+  font-family: 'mainfont';
+  color: white;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  float: left;
+  height: 27%;
+  width: 100%;       
+  border-radius: 15px; 
+  font-size: 20px;
+}
+
+#redHintText {
+  font-family: 'mainfont';
+  color: white;
+  font-size: 19px;
+  display: none;
+}
+
+#blueHintText {
+  font-family: 'mainfont';
+  color: white;
+  font-size: 19px;
+  display: none;
+}
+
+#greenHintText {
+  font-family: 'mainfont';
+  color: white;
+  font-size: 19px;
+  display: none;
+}
+
+.teamstats{
+  justify-content: center;
+  align-self: center;
+  float: left;
+  height: 25%;
+  width: 100%;        
+}
+
+.teambutton{
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.menubutton {
+  width: 80%;
+  height: 80%;
+  font-size: 18px;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  display: none;
+  float: left;
+  overflow: visible;
+  white-space: normal;
+  text-align: center;
+  padding: 0px;
+  border-radius: 10px;
+  background-color: rgb(80, 91, 114);
+  border-color: rgb(48, 54, 66);
+}
+
+.menubutton:disabled{
+  background-color: rgb(37, 42, 53) !important;
+}
+
+.okbutton {
+  height: 40%;
+  margin: 0px;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.cancelbutton {
+  margin: 0px;
+  margin-top: 5%;
+  height: 40%;
+  width: 100%;
+}
+
+.teamtime {
+  font-family: 'mainfont';
+  color: white;
+  font-size: 3rem;
+  float:left;  
+  width:59%; 
+  height: 63%; 
+  text-align: left;
+  padding: 7px;
+  border-radius: 10px;
+  margin: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1100px) {
+  .teamtime {
+    margin: 1%;
+  }
+}
+
+.teamscore {
+  font-family: 'mainfont';
+  font-size: 3rem;
+  float:right; 
+  width:19%; 
+  height:80%; 
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  margin: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#observers {
+  border: 0px;
+  height: 100%;
+  align-content: stretch;
+}
+
+.observercard {
+  height: 100%;
+  border: 0px;
+  padding: 0px;
+  color: lightgrey;
+  font-size: 16px;
+  position: bottom;
+}
+
+.turncard {
+  height: 100% !important;
+  padding: 10px !important;
+  border-width: 5px; 
+  font-size: 40px;
+  font-family: 'mainfont';
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align:center;
+}
+
+
+.tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+} 
+
+
+ 
+.tab button {
+  background-color: #bbb;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 33.3%;
+  height: 3%;
+  transition: 0.3s;
+}
+
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+  border: 1px solid grey;
+  border-radius:5px;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  
+} 
+
+#blankoutbutton{
+  background: url(/static/Woerdgoem/images/invisibility.png), grey;;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+}
+
+#hurrybutton{
+  background: url(/static/Woerdgoem/images/time.png), grey;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+}
+
+.blankedout {
+  border: 4px solid rgba(88, 40, 8, 0.644);
+  color : rgba(88, 40, 8, 0.644);
+}
+
+.hurried {
+  color: red;
+}
+
+#backToChatButton {
+  display: none;
+}
+
+.playerblocktab {
+  padding: 3px;
+  overflow-x:hidden;
+  border-bottom: solid grey 1px;
+}
+
+.playerblocktab p {
+  margin: 0;
+  float: left;
+}
+
+.playerblocktab button {
+  float: right;
+}
+
+#leaveGameButton, #changeNameButton {
+  width: 50%;
+}
+
+@media (max-width: 700px) {
+  #leaveGameButton, #changeNameButton {
+    font-size: 10px;
+  }
+}
+
+.qrDiv {
+  position: absolute;
+  top: 10px;
+  right: 18.5%;
+  margin-left: -75px;
+}
+
+.qrDiv img {
+  width: 180px;
+  height: 180px;
+}

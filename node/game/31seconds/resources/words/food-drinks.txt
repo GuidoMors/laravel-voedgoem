@@ -1,0 +1,10 @@
+fanta
+cola
+vodka
+whiskey
+tequila
+ouzo
+gin
+radler
+tripel
+moonshine

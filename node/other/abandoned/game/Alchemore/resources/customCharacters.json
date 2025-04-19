@@ -1,0 +1,54 @@
+[
+	{
+		"userId": 10,
+		"selectedCharacter": {
+			"hat": "Cap",
+			"face": "Bunny",
+			"body": "assistant",
+			"hatColor": [
+				10,
+				100,
+				255
+			],
+			"faceColor": [
+				150,
+				75,
+				10
+			],
+			"bodyColor": [
+				15,
+				200,
+				0
+			],
+			"hasHatMask": false,
+			"hasFaceMask": false,
+			"hasBodyMask": false
+		}
+	},
+	{
+		"userId": 4,
+		"selectedCharacter": {
+			"hat": "partyhat",
+			"face": "1chef",
+			"body": "1chef",
+			"hatColor": [
+				10,
+				100,
+				255
+			],
+			"faceColor": [
+				150,
+				75,
+				10
+			],
+			"bodyColor": [
+				15,
+				200,
+				0
+			],
+			"hasHatMask": true,
+			"hasFaceMask": true,
+			"hasBodyMask": true
+		}
+	}
+]

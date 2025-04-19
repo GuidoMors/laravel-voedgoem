@@ -8,15 +8,19 @@
         "format": "prettier --write resources/",
         "format:check": "prettier --check resources/",
         "lint": "eslint . --fix",
-        "types": "tsc --noEmit"
+        "types": "tsc --noEmit",
+        "hot": "webpack serve --hot"
     },
     "devDependencies": {
         "@eslint/js": "^9.19.0",
         "@types/node": "^22.13.5",
+        "browser-sync": "^2.29.3",
+        "browser-sync-webpack-plugin": "^2.3.0",
         "eslint": "^9.17.0",
         "eslint-config-prettier": "^10.0.1",
         "eslint-plugin-react": "^7.37.3",
         "eslint-plugin-react-hooks": "^5.1.0",
+        "laravel-mix": "^6.0.49",
         "prettier": "^3.4.2",
         "prettier-plugin-organize-imports": "^4.1.0",
         "prettier-plugin-tailwindcss": "^0.6.11",
@@ -24,6 +28,7 @@
     },
     "dependencies": {
         "@headlessui/react": "^2.2.0",
+        "@inertiajs/inertia-react": "^0.8.1",
         "@inertiajs/react": "^2.0.0",
         "@radix-ui/react-avatar": "^1.1.3",
         "@radix-ui/react-checkbox": "^1.1.4",
@@ -45,11 +50,16 @@
         "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
         "concurrently": "^9.0.1",
+        "express": "^5.1.0",
         "globals": "^15.14.0",
         "laravel-vite-plugin": "^1.0",
         "lucide-react": "^0.475.0",
-        "react": "^19.0.0",
-        "react-dom": "^19.0.0",
+        "qrcode.react": "^4.2.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-qr-code": "^2.0.15",
+        "react-router-dom": "^7.5.0",
+        "socket.io": "^4.8.1",
         "tailwind-merge": "^3.0.1",
         "tailwindcss": "^4.0.0",
         "tailwindcss-animate": "^1.0.7",
@@ -60,5 +70,23 @@
         "@rollup/rollup-linux-x64-gnu": "4.9.5",
         "@tailwindcss/oxide-linux-x64-gnu": "^4.0.1",
         "lightningcss-linux-x64-gnu": "^1.29.1"
-    }
+    },
+    "name": "laravel-voedgoem",
+    "version": "1.0.0",
+    "description": "Our React starter kit provides a robust, modern starting point for building Laravel applications with a React frontend using [Inertia](https://inertiajs.com).",
+    "main": "eslint.config.js",
+    "directories": {
+        "test": "tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/laravel/react-starter-kit.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/laravel/react-starter-kit/issues"
+    },
+    "homepage": "https://github.com/laravel/react-starter-kit#readme"
 }

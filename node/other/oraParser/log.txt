@@ -1,0 +1,67 @@
+******make dir: inputTest/hats
+******make dir: inputTest/hats/templatehat
+******make dir: inputTest/hats/templatehat/front
+********create file: outputTest/hats/templatehat/front/Outline... out of inputTest/data/001-001-001-000.png
+inputTest\data\001-001-001-000.png --- outputTest\hats\templatehat\front\Outline.png
+******make dir: inputTest/hats/templatehat/frontright
+********create file: outputTest/hats/templatehat/frontright/Outline... out of inputTest/data/001-001-002-000.png
+inputTest\data\001-001-002-000.png --- outputTest\hats\templatehat\frontright\Outline.png
+******make dir: inputTest/hats/templatehat/right
+********create file: outputTest/hats/templatehat/right/Outline... out of inputTest/data/001-001-003-000.png
+inputTest\data\001-001-003-000.png --- outputTest\hats\templatehat\right\Outline.png
+******make dir: inputTest/hats/templatehat/topright
+********create file: outputTest/hats/templatehat/topright/Outline... out of inputTest/data/001-001-004-000.png
+inputTest\data\001-001-004-000.png --- outputTest\hats\templatehat\topright\Outline.png
+******make dir: inputTest/hats/templatehat/top
+********create file: outputTest/hats/templatehat/top/Outline... out of inputTest/data/001-001-005-000.png
+inputTest\data\001-001-005-000.png --- outputTest\hats\templatehat\top\Outline.png
+******make dir: inputTest/faces
+********create file: outputTest/faces/Color Pallette... out of inputTest/data/002-000.png
+inputTest\data\002-000.png --- outputTest\faces\Color Pallette.png
+******make dir: inputTest/faces/monkey
+******make dir: inputTest/faces/monkey/front
+********create file: outputTest/faces/monkey/front/outline... out of inputTest/data/002-002-001-000.png
+inputTest\data\002-002-001-000.png --- outputTest\faces\monkey\front\outline.png
+********create file: outputTest/faces/monkey/front/mask... out of inputTest/data/002-002-001-001.png
+inputTest\data\002-002-001-001.png --- outputTest\faces\monkey\front\mask.png
+******make dir: inputTest/faces/monkey/frontright
+********create file: outputTest/faces/monkey/frontright/outline... out of inputTest/data/002-002-002-000.png
+inputTest\data\002-002-002-000.png --- outputTest\faces\monkey\frontright\outline.png
+********create file: outputTest/faces/monkey/frontright/mask... out of inputTest/data/002-002-002-001.png
+inputTest\data\002-002-002-001.png --- outputTest\faces\monkey\frontright\mask.png
+******make dir: inputTest/faces/monkey/right
+********create file: outputTest/faces/monkey/right/outline... out of inputTest/data/002-002-003-000.png
+inputTest\data\002-002-003-000.png --- outputTest\faces\monkey\right\outline.png
+********create file: outputTest/faces/monkey/right/mask... out of inputTest/data/002-002-003-001.png
+inputTest\data\002-002-003-001.png --- outputTest\faces\monkey\right\mask.png
+******make dir: inputTest/faces/monkey/topright
+********create file: outputTest/faces/monkey/topright/outline... out of inputTest/data/002-002-004-000.png
+inputTest\data\002-002-004-000.png --- outputTest\faces\monkey\topright\outline.png
+********create file: outputTest/faces/monkey/topright/mask... out of inputTest/data/002-002-004-001.png
+inputTest\data\002-002-004-001.png --- outputTest\faces\monkey\topright\mask.png
+******make dir: inputTest/faces/monkey/top
+********create file: outputTest/faces/monkey/top/outline... out of inputTest/data/002-002-005-000.png
+inputTest\data\002-002-005-000.png --- outputTest\faces\monkey\top\outline.png
+********create file: outputTest/faces/monkey/top/mask... out of inputTest/data/002-002-005-001.png
+inputTest\data\002-002-005-001.png --- outputTest\faces\monkey\top\mask.png
+******make dir: inputTest/bodies
+******make dir: inputTest/bodies/templatebody
+******make dir: inputTest/bodies/templatebody/front
+********create file: outputTest/bodies/templatebody/front/Outline... out of inputTest/data/003-001-001-000.png
+inputTest\data\003-001-001-000.png --- outputTest\bodies\templatebody\front\Outline.png
+******make dir: inputTest/bodies/templatebody/frontright
+********create file: outputTest/bodies/templatebody/frontright/Outline... out of inputTest/data/003-001-002-000.png
+inputTest\data\003-001-002-000.png --- outputTest\bodies\templatebody\frontright\Outline.png
+******make dir: inputTest/bodies/templatebody/right
+********create file: outputTest/bodies/templatebody/right/Outline... out of inputTest/data/003-001-003-000.png
+inputTest\data\003-001-003-000.png --- outputTest\bodies\templatebody\right\Outline.png
+******make dir: inputTest/bodies/templatebody/topright
+********create file: outputTest/bodies/templatebody/topright/Outline... out of inputTest/data/003-001-004-000.png
+inputTest\data\003-001-004-000.png --- outputTest\bodies\templatebody\topright\Outline.png
+******make dir: inputTest/bodies/templatebody/top
+********create file: outputTest/bodies/templatebody/top/Outline... out of inputTest/data/003-001-005-000.png
+inputTest\data\003-001-005-000.png --- outputTest\bodies\templatebody\top\Outline.png
+********create file: outputTest/Reference... out of inputTest/data/003.png
+inputTest\data\003.png --- outputTest\Reference.png
+********create file: outputTest/Background... out of inputTest/data/004.png
+inputTest\data\004.png --- outputTest\Background.png

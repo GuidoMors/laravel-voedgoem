@@ -1,0 +1,315 @@
+.LobbyGames {
+  background-color: var(--orange);
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  height: 72%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-radius: 10px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  font-family: 'smallfont';
+}
+
+.startGameButton {
+  display: block;
+}
+
+body {
+  background-color: var(--white);
+}
+
+.LobbyGames::-webkit-scrollbar {
+  display: none;
+}
+
+.LobbyGame {
+  margin: 1%;
+  height: 4%;
+  width: 94%;
+  padding: 2%;
+  background-color: var(--log);
+  border-radius: 10px;
+  line-height: 150%;
+}
+
+#right {
+  background-color: var(--log);
+}
+
+.gameLog {
+  color: black;
+}
+
+.gameLog p:nth-child(odd) {
+  background-color: var(--log1);
+}
+
+.gameLog p:nth-child(even) {
+  background-color: var(--log2);
+}
+
+.observers {
+  width: 102.5%;
+  height: 5%;
+  table-layout: fixed;
+}
+
+.observer {
+  top: 10%;
+  text-align: center;
+  text-overflow: ellipsis;
+  font-size: 20px;
+}
+
+.obsname {
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 200%;
+  max-width: 300px;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.newGameButton {
+  align-self: center;
+  display: block;
+  margin-left: 46.25%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 10%;
+  height: 4%;
+}
+
+.HostName{
+  width: 30%;
+  float: left;
+}
+
+.locksymbol{
+  width: 2%;
+  height: 100%;
+  float: left;
+  margin-right: 2%;
+}
+
+.locked {
+  background-image: url("../images/icons/Menu/locked.png");
+  background-size: 100% 100%;
+}
+
+.GamePlayers{
+  float: left;
+}
+
+.GamePhase{
+  float: right;
+  margin-right: 10%;
+}
+
+.joinGameButton{
+  float: right;
+  width: 10%;
+  height: 100%;
+}
+
+.LobbyBigger {
+  height: 78.5%;
+}
+
+.LobbyEvenBigger {
+  margin-top: 5%;
+  height: 82.5%;
+}
+
+.colordivider {
+  align-content: center;
+  position: relative;
+  width: 100%;
+  height: 10%;
+  
+}
+
+.factiontiletext {
+  padding-right: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.colorblock {
+  height: 45%;
+  width: 11%;
+  top: 25%;
+  left: 6%;
+  position: absolute;
+  border-radius: 90px;
+  border: 1px white solid;
+}
+
+.pregameblock {
+  padding-left: 1%;
+  width: 94%;
+  height: 9%;
+  margin: 0 auto;
+  margin-top: 2%;
+  background-color: var(--log);
+  border-radius: 5px;
+}
+
+.pregamename {
+  text-align: left;
+  font-size: 2.2rem;
+  line-height: 175%;
+  float: left;
+  width: 30.5%;
+  height: 100%;
+  -webkit-text-stroke: 0.2px var(--frontplate);
+}
+
+.pregamefaction {
+  width: 25%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.pregamecourt {
+  float: right;
+  width: 40%;
+  height: 100%;
+}
+
+.pregamefactionbutton {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  margin: 0 auto;
+  height: 100%;
+  width: 98.5%;
+  text-align: right;
+}
+
+.pregamefactioninfo {
+  position: absolute;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 25px;
+  border: none;
+  margin: 0 auto;
+  text-align: center;
+  height: 6.4%;
+  width: 3%;
+}
+
+.pregamecourtbutton {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  margin: 0 auto;
+  height: 100%;
+  width: 24%;
+  margin-left: 1%;
+  padding-left: 3px;
+  padding-right: 3px;
+  text-align: center;
+  float: right;
+}
+
+.pregamefactioncontent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: right;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.pregamecourtcontent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: right;
+  width: fit-content;
+  border-radius: 3px;
+  padding:0.3%;
+  margin-left: -4px;
+}
+
+.pregamecourttiletext {
+  text-align: center;
+}
+
+.pregamefactioncontent .colordivider:hover {
+  background-color: #ddd;
+}
+
+.pregamecourtcontent .colordivider:hover {
+  background-color: #ddd;
+}
+
+.pregamefaction:hover .pregamefactioncontent {
+  display: block;
+}
+
+.pregamecourtbutton:hover .pregamecourtcontent {
+  display: block;
+}
+
+.startGameButton {
+  align-self: center;
+  margin-top: 1%;
+  margin-left: 12%;
+  margin-bottom: 1%;
+  width: 10%;
+  height: 80%;
+  float: left;
+}
+
+.ButtonDivider {
+  height: 7%;
+}
+
+.pregamekickbutton:hover .pregamecourtcontent {
+  display: block;
+}
+
+.gameLogo {
+  margin-top: 1%;
+  margin-bottom: 2%;
+  height: 20%;
+}
+
+button, select {
+  border: 1px var(--activeorange) solid;
+  color: var(--activeorange);
+}
+
+.BigButton {
+  background-color: var(--aggresiveorange);
+  border: 1px var(--activeorange) solid;
+}
+
+button:disabled, select:disabled, button:disabled:hover {
+  background-color: var(--passiveorange);
+  color: var(--themegrey);
+}
+
+button:hover, select:hover {
+  background-color: var(--activeorange);
+}
+
+
+.playerblocktab {
+  color: black;
+}
+
+
+#middle {
+  width: 80%;
+}

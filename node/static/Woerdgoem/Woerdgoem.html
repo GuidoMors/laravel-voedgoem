@@ -1,0 +1,171 @@
+<html><link rel="icon" href="/static/Woerdgoem/images/favicon.ico">
+  <head>
+    <title>Woerdgoem</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="static/Woerdgoem/css/style.css">
+
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script src="/static/common/tools.js"></script>
+    <script src="/static/common/login.js"></script>
+
+    
+    <script src="/static/Woerdgoem/woerdgoemRenderGame.js"></script>
+    <script src="/static/Woerdgoem/woerdgoemGameClient.js"></script>
+    <script src="/static/Woerdgoem/woerdgoemWordSender.js"></script>
+
+    <script src="/static/common/renderTabs.js"></script>
+    <script src="/static/common/gamestateUtils.js"></script>
+  
+  </head>
+  <body onload="document.getElementById('tabChat').click();" onbeforeunload="return disconnectPlayer()">
+
+    <div id="middle">
+      <div id="topbar" class="topbar">
+
+      </div>
+      <div id="middlebar" class="middlebar">
+
+      </div>
+      <div id="bottombar" class="bottombar">
+        
+      </div>
+    </div>
+
+    <div id="left">
+      <div class="menudivider">
+        <div id="menubox" class = "menubox">
+          <div class="leftmenu">
+            <input type="button" onclick="hurryTime();" class="menubutton" id="hurrybutton" >
+            <input type="button" onclick="startGame();" class="menubutton" value="Start" id="startbutton" >
+            <input type="number" min="10" value="32" class= "boardSizeSettings" name="boardSizeSettings" id="boardSizeSettings" title="The amount of cards.">
+            <select class="teamSizeSettings" name="teamSizeSettings" id="teamSizeSettings" title="The amount of teams."></select>
+          </div>
+          <div class="middlemenu">
+            <input type="button" onclick="quitGame();" class="menubutton" value="Quit" id="quitbutton" >
+            <input type="button" onclick="showSettings();" class="menubutton settingsbutton" id="settingsbutton">
+            <input class = "timerSettings" type="number" name="timerSettings" id="timerSettings" value="120" title="Time in seconds for a team's turn. 0 indicates no timer.">
+            <input class = "specialSettings" type="number" min="0" name="specialSettings" id="specialSettings" value="3" title="How many special hints a spymaster can give his team, and how many times an operative can use their special abilities.">
+          </div>
+          <div class="rightmenu">
+            <input type="button" onclick="leave();" class="menubutton" value="Leave Team" id="leavebutton" >
+            <input type="button" onclick="updateGameSettings();" class="menubutton okbutton" value="OK" id="savesettingsbutton">
+            <input type="button" onclick="cancelSettings();" class="menubutton cancelbutton" value="Cancel" id="cancelsettingsbutton">
+            <input type="button" onclick="endTurn();" class="menubutton" value="Pass" id="passbutton" >
+            <input type="button" onclick="blankOut();" class="menubutton" id="blankoutbutton" >
+          </div>
+        </div>
+      </div>
+      <div class="reddivider">
+        <div id="redbox" class = "redbox">
+          <div class="spybutton">
+            <input type="button" onclick="joinTeam(1,false);" value="Operative" class="teambutton red"id="redoperativebutton">
+            <div id= "redHintText"></div>
+          </div>
+          <div class="spyplayers red" onclick="joinTeam(1,false);" id="redoperatives">
+
+          </div>
+          <div class="spybutton">
+            <input type="button" onclick="joinTeam(1,true);" value="Spymaster" class="teambutton darkred" id="redspymasterbutton">
+          </div>
+          <div class="spyplayers darkred" onclick="joinTeam(1,true);" id="redspymasters">
+
+          </div>
+          <div class="teamstats">
+            <div class="teamtime darkred" id="redteamtime">
+                
+            </div>
+            <div class="teamscore red" id="redteamscore">
+                
+            </div>
+          </div>      
+        </div>
+      </div>
+      <div class="greendivider">
+        <div id="greenbox" class = "greenbox">
+          <div class="spybutton">
+            <input type="button" onclick="joinTeam(3,false);" value="Operative" class="teambutton green" id="greenoperativebutton">
+            <div id= "greenHintText"></div>
+          </div>
+          <div class="spyplayers green" onclick="joinTeam(3,false);" id="greenoperatives">
+
+          </div>
+          <div class="spybutton">
+            <input type="button" onclick="joinTeam(3,true);" value="Spymaster" class="teambutton darkgreen" id="greenspymasterbutton">
+          </div>
+          <div class="spyplayers darkgreen" onclick="joinTeam(3,true);" id="greenspymasters">
+
+          </div>
+          <div class="teamstats">
+            <div class="teamtime darkgreen" id="greenteamtime">
+                
+            </div>
+            <div class="teamscore green" id="greenteamscore">
+                
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bluedivider">
+        <div id="bluebox" class = "bluebox">
+          <div class="spybutton">
+            <input type="button" onclick="joinTeam(2,false);" value="Operative" class="teambutton blue" id="blueoperativebutton">
+            <div id= "blueHintText"></div>
+          </div>
+          <div class="spyplayers blue" onclick="joinTeam(2,false);" id="blueoperatives">
+
+          </div>
+          <div class="spybutton">
+            <input type="button" onclick="joinTeam(2,true);" value="Spymaster" class="teambutton darkblue" id="bluespymasterbutton">
+          </div>
+          <div class="spyplayers darkblue" onclick="joinTeam(2,true);" id="bluespymasters">
+
+          </div>
+          <div class="teamstats">
+            <div class="teamtime darkblue" id="blueteamtime">
+                
+            </div>
+            <div class="teamscore blue" id="blueteamscore">
+                
+            </div>
+          </div>
+        </div>
+      </div>  
+
+  </div>
+
+    <div id="right">
+      <div class="tab">
+        <button id= "leaveGameButton" class="tablinks" onclick="leavePlayers();leaveGame();">Leave Game</button>
+        <button id= "changeNameButton" class="tablinks" onclick="changeName();" >Change Name</button>
+        <button id="tabChat" class="tablinks" onclick="openTab(event, 'gameLogTab')"></button>
+        <button id="tabStats" class="tablinks" onclick="openTab(event, 'statsTab')"></button>
+        <button id= "tabPlayers" class="tablinks" onclick="openTab(event, 'playerlistLog')">?</button>
+      </div>
+
+      <div id="gameLogTab" name="gameLogTab" class="tabContent">
+        <div id="gameLog" name="gameLog" class="gameLog"></div>
+        <div id="sideLog" name="sideLog" class="sideLog">	</div>
+        <div id="typeBox" name="typeBox" class="typeBox">
+          <input class = "inputMessage" type="text" name="inputMessage" id="inputMessage" value="">
+          <input class = "inputHint" type="text" name="inputHint" id="inputHint" value="">
+          <select class= "inputAmount" name="inputAmount" id="inputAmount">
+          </select>
+        <input class="HintButton" type="button" onclick="sendWordHint();" value="Hint" id= "HintButton">
+        <input class="MessageButton" type="button" onclick="sendMessage();" value="Send" id= "MessageButton">
+        </div>
+      </div>
+
+      <div id="playerlistLog" name="playerlistLog" class="playerlistLog tabContent"></div>
+      
+      <div id="statsTab" name="statsTab" class="tabContent">
+        <div id="playerStats" class="playerStats"></div>
+      </div>
+
+      <div id="qrDiv" class="qrDiv"></div>
+	</div>
+	
+  </body>
+  
+</html>

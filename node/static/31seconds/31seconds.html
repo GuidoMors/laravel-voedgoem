@@ -1,0 +1,120 @@
+<html><link rel="icon" href="/static/31seconds/images/favicon.ico">
+  <head>
+    <title>31seconds</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="static/31seconds/css/style.css">
+
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script src="/static/common/tools.js"></script>
+    <script src="/static/common/login.js"></script>
+    <script src="/static/common/renderHelper.js"></script>
+    <script src="/static/common/gamestateUtils.js"></script>  
+    
+    <script src="/static/31seconds/31secondsRenderGame.js"></script>
+    <script src="/static/31seconds/31secondsGameClient.js"></script>
+
+    <script src="/static/common/renderTabs.js"></script>
+    
+  </head>
+  <body onload="document.getElementById('tabChat').click();" onbeforeunload="return disconnectPlayer()">
+    <div class="background-animation" id="background-animation"></div>
+
+    <div id="middle">
+      <div id="topbar" class="topbar"> </div>
+      <div id="observerbar" class="observerbar"></div>
+      <div id="middlebar" class="middlebar"></div>
+      <div id="bottombar" class="bottombar"></div>
+    </div>
+
+    <div id="bottom">
+      <div class="yellowdivider">
+        <div id="playerBoxYellow" class="playerBox yellow">
+          <div id="scoreBoxYellow" class="scoreBox"></div>
+          <div class="playerBoxInner yellow" onclick="joinTeam(1);" id="yellowPlayerBoxInner"></div>
+        </div>   
+      </div> 
+      
+      <div class="menudivider">
+        <div id="menubox" class = "menubox">
+          <div class="leftmenu">
+            <input type="button" onclick="startGame();" class="menubutton" value="Start" id="startbutton" >
+          </div>
+          <div class="middlemenu">
+            <input type="button" onclick="quitGame();" class="menubutton" value="Quit" id="quitbutton" >
+          </div>
+          <div class="rightmenu">
+            <input type="button" onclick="leave();" class="menubutton" value="Leave Team" id="leavebutton" >
+          </div>
+        </div>
+        <div id="qrDiv" class="qrDiv"></div>
+      </div>
+      
+      <div class="bluedivider">
+        <div id="playerBoxBlue" class="playerBox blue">
+          <div id="scoreBoxBlue" class="scoreBox"></div>
+          <div class="playerBoxInner blue" onclick="joinTeam(2);" id="bluePlayerBoxInner"></div>
+        </div>   
+      </div> 
+    </div> 
+
+    <div id="right">
+      <div class="tab">
+        <button id= "leaveGameButton" class="tablinks" onclick="leavePlayers();leaveGame();">Leave Game</button>
+        <button id= "changeNameButton" class="tablinks" onclick="changeName();" >Change Name</button>
+        <button id="tabChat" class="tablinks" onclick="openTab(event, 'gameLogTab')"></button>
+        <button id="tabStats" class="tablinks" onclick="openTab(event, 'statsTab')"></button>
+        <button id= "tabRules" class="tablinks" onclick="openTab(event, 'rulesTab')"></button>
+        <button id= "tabPlayers" class="tablinks" onclick="openTab(event, 'playerlistLog')">?</button>
+      </div>
+
+      <div id="gameLogTab" name="gameLogTab" class="tabContent">
+        <div id="gameLog" name="gameLog" class="gameLog"></div>
+        <div id="sideLog" name="sideLog" class="sideLog">	</div>
+        <div id="typeBox" name="typeBox" class="typeBox">
+          <input class = "inputMessage" type="text" name="inputMessage" id="inputMessage" value="">
+          <input class="MessageButton" type="button" onclick="sendMessage();" value="Send" id= "MessageButton">
+        </div>
+      </div>
+
+      <div id="playerlistLog" name="playerlistLog" class="playerlistLog tabContent"></div>
+      
+      <div id="statsTab" name="statsTab" class="tabContent">
+        <div id="playerStats" class="playerStats"></div>
+      </div>
+
+      <div id="rulesTab" name="rulesTab" class="tabContent">
+          Players take turns looking at cards with 5 secret words on it. 
+          The other players in their team have 31 seconds to guess the 5 secret words through hints given by them.
+          For each correctly guessed word their team gets a point.
+          The first team to 31 points wins.
+          <br><br>
+          <b>Rule 1:</b> You are not allowed to say any of the secret words, or words inside the word, before it has been guessed.
+          <br>
+          <b>Example:</b> If the word <b>Netherlands</b> is on the card, you are not allowed to say the words <b>Netherlands</b>, <b>nether</b> or <b>land</b> until the word Netherlands is guessed.
+          <br><br>
+          <b>Rule 2:</b> You are not allowed to refer to the individual letters of any secret words.
+          <br>
+          <b>Example:</b> You are not allowed to say that the word starts with an <b>A</b>, or has two <b>P</b>'s in it.
+          <br><br>
+          <b>Rule 3:</b> You are not allowed to refer to the sound of the word.
+          <br>
+          <b>Example:</b> You are not allowed to say that the word sounds like <b>japple</b> or <b>grapple</b>.
+          <br><br>
+          <b>Rule 4:</b> You are not allowed to say a synonym for the word in another language.
+          <br>
+          <b>Example:</b> You are not allowed to say that the word is called <b>appel</b> in Dutch.
+          <br><br>
+          <b>Rule 5:</b> You are not allowed to use the shorthand or abbreviations of the secret words, nor are you allowed to use the words of the abbreviation if your secret word is an abbreviation.
+          <br>
+          <b>Example:</b> You are not allowed to say <b>broadcasting</b> if your word is <b>BBC</b>, and you are not allowed to say <b>BBC</b> if your word is <b>broadcasting</b>.
+          <br><br>
+          <b>Good hints for the word "Apple":</b> Green round fruit. Brand of the iPhone. Joey's favorite fruit. Fruit I ate this morning. Fruit that Eve stole. Fruit right there on the table. Fruit often used in pies.
+      </div>
+      
+	</div>
+	
+  </body>
+  
+</html>

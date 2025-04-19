@@ -1,17 +1,51 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 use Inertia\Inertia;
 
-Route::get('/', function () {
-    return Inertia::render('index');
-})->name('home');
+// Predefined list of games
+$games = [
+    'Woerdgoem',
+    'Cookaloor',
+    'Tetrys',
+    '31seconds'
+];
 
-Route::middleware(['auth', 'verified'])->group(function () {
-    Route::get('dashboard', function () {
-        return Inertia::render('dashboard');
-    })->name('dashboard');
+Route::middleware('auth')->group(function () use ($games) {
+
+    Route::get('/', function () use ($games) {
+        $user = Auth::user();
+        if ($user && in_array($user->game_type, $games)) {
+            return redirect()->route($user->game_type);
+        }
+        return Inertia::render('index', [
+            'game' => 'index',
+            'user' => Auth::user(),
+        ]);
+    })->name('index');
+
+    foreach ($games as $game) {
+        Route::get('/' . $game, function () use ($game) {
+            return Inertia::render($game, [
+                'game' => $game,
+                'user' => Auth::user(),
+            ]);
+        })->name($game);
+    }
 });
+
+Route::post('/logout', function (Request $request) {
+    Auth::logout();
+    $request->session()->invalidate();
+    $request->session()->regenerateToken();
+    return redirect()->route('login');
+})->name('logout');
+
+Route::get('/login', function () {
+    return Inertia::render('auth/login');
+})->name('login');
 
 require __DIR__.'/settings.php';
 require __DIR__.'/auth.php';

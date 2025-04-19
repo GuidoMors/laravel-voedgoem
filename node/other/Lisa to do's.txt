@@ -1,0 +1,49 @@
+----------------------------------------------------------------------------
+TO DO GENERAL:
+
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+TO DO VOEDGOEM:
+Make google drive integration for words
+-when you launch server it starts an adjacent process a bit later which is a python script which hauls all the words from google drive
+
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+TO DO COOKALOOR:
+I keep getting bug message if you refresh the page often enough. It says we are leaking listeners, and then it does not assign me a new listener.
+it comes from this:
+	async defineServerListeners(){
+		const sockets = await this.io.fetchSockets();
+		for (const socket of sockets) {
+			this.defineServerListenersFor(socket);
+		}
+		this.io.on('connection', socket => this.defineServerListenersFor(socket)  );
+	}
+
+
+In console they keep telling me drawImg is bad: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequentlyMy Project 32675
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+TO DO TETRYS:
+
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+TO DO 31 SECONDS:
+Make google drive integration for words 
+-when you launch server it starts an adjacent process a bit later which is a python script which hauls all the words from google drive
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+TO DO DWORF:
+
+
+----------------------------------------------------------------------------

@@ -1,0 +1,35 @@
+{
+    "XXX":{
+        "category":"Wall",
+        "blocking":true,
+        "height":64,
+        "floor":"static/Snowfall/images/textures/brick_base.png",
+        "wall":"static/Snowfall/images/textures/brick_base.png",
+        "ceiling":""
+    },
+    "   ":{
+        "category":"Misc",
+        "blocking":false,
+        "height":0,
+        "floor":"",
+        "wall":"",
+        "ceiling":""
+    },
+    "___":{
+        "category":"Floor",
+        "blocking":true,
+        "height":0,
+        "floor":"static/Snowfall/images/textures/grass1.png",
+        "wall":"",
+        "ceiling":""
+    },
+    "^^^":{
+        "category":"Ceiling",
+        "blocking":false,
+        "height":0,
+        "floor":"",
+        "wall":"",
+        "ceiling":"static/Snowfall/images/textures/2010-09-04_08-04-42.jpg"
+    }
+
+}

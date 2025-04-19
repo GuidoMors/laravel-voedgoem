@@ -1,0 +1,20 @@
+OTHER
+make the qrcode show actual url dynamically rather than window.location.href
+move the old scores into the database for the new accounts
+allow users to change their name
+cant redirect yourself out of a game
+
+NODE.JS
+synch logins
+synch lobbies and games
+have scores saved in the database rather than in jsons
+make the lobby work
+make the games work
+-woerdgoem
+-tetrys
+-31seconds
+-cookaloor
+remove all obsolete login and cookie handling
+-theres some outdated code in login.js, probably alaso good to double check server.js
+
+CTRL+F TO DO

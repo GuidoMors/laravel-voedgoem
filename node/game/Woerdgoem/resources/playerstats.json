@@ -1,0 +1,885 @@
+[
+	{
+		"userId": 4,
+		"playerStats": {
+			"myTotalGames": 125,
+			"myTotalWins": 64,
+			"myTotalLoses": 61,
+			"myGamesAsSpymaster": 37,
+			"myGamesAsTeammember": 88,
+			"myWinsAsTeammember": 46,
+			"myWinsAsSpymaster": 18,
+			"myLosesAsSpymaster": 19,
+			"myLosesAsTeammember": 42,
+			"myGamesAsTeam1": 60,
+			"myGamesAsTeam2": 60,
+			"myGamesAsTeam3": 5,
+			"blackCardsTapped": 5
+		}
+	},
+	{
+		"userId": 7,
+		"playerStats": {
+			"myTotalGames": 166,
+			"myTotalWins": 86,
+			"myTotalLoses": 80,
+			"myGamesAsSpymaster": 51,
+			"myGamesAsTeammember": 115,
+			"myWinsAsTeammember": 63,
+			"myWinsAsSpymaster": 23,
+			"myLosesAsSpymaster": 28,
+			"myLosesAsTeammember": 52,
+			"myGamesAsTeam1": 97,
+			"myGamesAsTeam2": 65,
+			"myGamesAsTeam3": 4,
+			"blackCardsTapped": 6
+		}
+	},
+	{
+		"userId": 9,
+		"playerStats": {
+			"myTotalGames": 16,
+			"myTotalWins": 5,
+			"myTotalLoses": 11,
+			"myGamesAsSpymaster": 2,
+			"myGamesAsTeammember": 14,
+			"myWinsAsTeammember": 4,
+			"myWinsAsSpymaster": 1,
+			"myLosesAsSpymaster": 1,
+			"myLosesAsTeammember": 10,
+			"myGamesAsTeam1": 5,
+			"myGamesAsTeam2": 11,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 1
+		}
+	},
+	{
+		"userId": 13,
+		"playerStats": {
+			"myTotalGames": 64,
+			"myTotalWins": 35,
+			"myTotalLoses": 29,
+			"myGamesAsSpymaster": 12,
+			"myGamesAsTeammember": 52,
+			"myWinsAsTeammember": 24,
+			"myWinsAsSpymaster": 11,
+			"myLosesAsSpymaster": 1,
+			"myLosesAsTeammember": 28,
+			"myGamesAsTeam1": 28,
+			"myGamesAsTeam2": 33,
+			"myGamesAsTeam3": 3,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 11,
+		"playerStats": {
+			"myTotalGames": 104,
+			"myTotalWins": 49,
+			"myTotalLoses": 55,
+			"myGamesAsSpymaster": 59,
+			"myGamesAsTeammember": 45,
+			"myWinsAsTeammember": 19,
+			"myWinsAsSpymaster": 30,
+			"myLosesAsSpymaster": 29,
+			"myLosesAsTeammember": 26,
+			"myGamesAsTeam1": 43,
+			"myGamesAsTeam2": 52,
+			"myGamesAsTeam3": 9,
+			"blackCardsTapped": 3
+		}
+	},
+	{
+		"userId": 12,
+		"playerStats": {
+			"myTotalGames": 163,
+			"myTotalWins": 81,
+			"myTotalLoses": 82,
+			"myGamesAsSpymaster": 10,
+			"myGamesAsTeammember": 153,
+			"myWinsAsTeammember": 77,
+			"myWinsAsSpymaster": 4,
+			"myLosesAsSpymaster": 6,
+			"myLosesAsTeammember": 76,
+			"myGamesAsTeam1": 81,
+			"myGamesAsTeam2": 80,
+			"myGamesAsTeam3": 2,
+			"blackCardsTapped": 6
+		}
+	},
+	{
+		"userId": 14,
+		"playerStats": {
+			"myTotalGames": 88,
+			"myTotalWins": 43,
+			"myTotalLoses": 45,
+			"myGamesAsSpymaster": 25,
+			"myGamesAsTeammember": 63,
+			"myWinsAsTeammember": 32,
+			"myWinsAsSpymaster": 11,
+			"myLosesAsSpymaster": 14,
+			"myLosesAsTeammember": 31,
+			"myGamesAsTeam1": 33,
+			"myGamesAsTeam2": 48,
+			"myGamesAsTeam3": 7,
+			"blackCardsTapped": 2
+		}
+	},
+	{
+		"userId": 15,
+		"playerStats": {
+			"myTotalGames": 101,
+			"myTotalWins": 64,
+			"myTotalLoses": 37,
+			"myGamesAsSpymaster": 4,
+			"myGamesAsTeammember": 97,
+			"myWinsAsTeammember": 61,
+			"myWinsAsSpymaster": 3,
+			"myLosesAsSpymaster": 1,
+			"myLosesAsTeammember": 36,
+			"myGamesAsTeam1": 48,
+			"myGamesAsTeam2": 53,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 8
+		}
+	},
+	{
+		"userId": 16,
+		"playerStats": {
+			"myTotalGames": 33,
+			"myTotalWins": 16,
+			"myTotalLoses": 17,
+			"myGamesAsSpymaster": 2,
+			"myGamesAsTeammember": 31,
+			"myWinsAsTeammember": 16,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 2,
+			"myLosesAsTeammember": 15,
+			"myGamesAsTeam1": 17,
+			"myGamesAsTeam2": 14,
+			"myGamesAsTeam3": 2,
+			"blackCardsTapped": 1
+		}
+	},
+	{
+		"userId": 10,
+		"playerStats": {
+			"myTotalGames": 197,
+			"myTotalWins": 99,
+			"myTotalLoses": 98,
+			"myGamesAsSpymaster": 36,
+			"myGamesAsTeammember": 161,
+			"myWinsAsTeammember": 76,
+			"myWinsAsSpymaster": 23,
+			"myLosesAsSpymaster": 13,
+			"myLosesAsTeammember": 85,
+			"myGamesAsTeam1": 115,
+			"myGamesAsTeam2": 80,
+			"myGamesAsTeam3": 2,
+			"blackCardsTapped": 13
+		}
+	},
+	{
+		"userId": 17,
+		"playerStats": {
+			"myTotalGames": 121,
+			"myTotalWins": 44,
+			"myTotalLoses": 77,
+			"myGamesAsSpymaster": 67,
+			"myGamesAsTeammember": 54,
+			"myWinsAsTeammember": 20,
+			"myWinsAsSpymaster": 24,
+			"myLosesAsSpymaster": 43,
+			"myLosesAsTeammember": 34,
+			"myGamesAsTeam1": 87,
+			"myGamesAsTeam2": 32,
+			"myGamesAsTeam3": 2,
+			"blackCardsTapped": 10
+		}
+	},
+	{
+		"userId": 2,
+		"playerStats": {
+			"myTotalGames": 69,
+			"myTotalWins": 42,
+			"myTotalLoses": 27,
+			"myGamesAsSpymaster": 30,
+			"myGamesAsTeammember": 39,
+			"myWinsAsTeammember": 23,
+			"myWinsAsSpymaster": 19,
+			"myLosesAsSpymaster": 11,
+			"myLosesAsTeammember": 16,
+			"myGamesAsTeam1": 32,
+			"myGamesAsTeam2": 37,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 4
+		}
+	},
+	{
+		"userId": 18,
+		"playerStats": {
+			"myTotalGames": 63,
+			"myTotalWins": 29,
+			"myTotalLoses": 34,
+			"myGamesAsSpymaster": 2,
+			"myGamesAsTeammember": 61,
+			"myWinsAsTeammember": 29,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 2,
+			"myLosesAsTeammember": 32,
+			"myGamesAsTeam1": 35,
+			"myGamesAsTeam2": 26,
+			"myGamesAsTeam3": 2,
+			"blackCardsTapped": 2
+		}
+	},
+	{
+		"userId": 19,
+		"playerStats": {
+			"myTotalGames": 4,
+			"myTotalWins": 2,
+			"myTotalLoses": 2,
+			"myGamesAsSpymaster": 3,
+			"myGamesAsTeammember": 1,
+			"myWinsAsTeammember": 0,
+			"myWinsAsSpymaster": 2,
+			"myLosesAsSpymaster": 1,
+			"myLosesAsTeammember": 1,
+			"myGamesAsTeam1": 2,
+			"myGamesAsTeam2": 2,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 20,
+		"playerStats": {
+			"myTotalGames": 6,
+			"myTotalWins": 1,
+			"myTotalLoses": 5,
+			"myGamesAsSpymaster": 1,
+			"myGamesAsTeammember": 5,
+			"myWinsAsTeammember": 1,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 1,
+			"myLosesAsTeammember": 4,
+			"myGamesAsTeam1": 3,
+			"myGamesAsTeam2": 3,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 1
+		}
+	},
+	{
+		"userId": 21,
+		"playerStats": {
+			"myTotalGames": 2,
+			"myTotalWins": 1,
+			"myTotalLoses": 1,
+			"myGamesAsSpymaster": 0,
+			"myGamesAsTeammember": 2,
+			"myWinsAsTeammember": 1,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 0,
+			"myLosesAsTeammember": 1,
+			"myGamesAsTeam1": 1,
+			"myGamesAsTeam2": 1,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 22,
+		"playerStats": {
+			"myTotalGames": 62,
+			"myTotalWins": 28,
+			"myTotalLoses": 34,
+			"myGamesAsSpymaster": 19,
+			"myGamesAsTeammember": 43,
+			"myWinsAsTeammember": 18,
+			"myWinsAsSpymaster": 10,
+			"myLosesAsSpymaster": 9,
+			"myLosesAsTeammember": 25,
+			"myGamesAsTeam1": 28,
+			"myGamesAsTeam2": 27,
+			"myGamesAsTeam3": 7,
+			"blackCardsTapped": 1
+		}
+	},
+	{
+		"userId": 23,
+		"playerStats": {
+			"myTotalGames": 13,
+			"myTotalWins": 5,
+			"myTotalLoses": 8,
+			"myGamesAsSpymaster": 0,
+			"myGamesAsTeammember": 13,
+			"myWinsAsTeammember": 5,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 0,
+			"myLosesAsTeammember": 8,
+			"myGamesAsTeam1": 8,
+			"myGamesAsTeam2": 5,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 24,
+		"playerStats": {
+			"myTotalGames": 6,
+			"myTotalWins": 1,
+			"myTotalLoses": 5,
+			"myGamesAsSpymaster": 3,
+			"myGamesAsTeammember": 3,
+			"myWinsAsTeammember": 1,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 3,
+			"myLosesAsTeammember": 2,
+			"myGamesAsTeam1": 4,
+			"myGamesAsTeam2": 2,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 26,
+		"playerStats": {
+			"myTotalGames": 12,
+			"myTotalWins": 3,
+			"myTotalLoses": 9,
+			"myGamesAsSpymaster": 2,
+			"myGamesAsTeammember": 10,
+			"myWinsAsTeammember": 2,
+			"myWinsAsSpymaster": 1,
+			"myLosesAsSpymaster": 1,
+			"myLosesAsTeammember": 8,
+			"myGamesAsTeam1": 5,
+			"myGamesAsTeam2": 7,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 28,
+		"playerStats": {
+			"myTotalGames": 2,
+			"myTotalWins": 1,
+			"myTotalLoses": 1,
+			"myGamesAsSpymaster": 0,
+			"myGamesAsTeammember": 2,
+			"myWinsAsTeammember": 1,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 0,
+			"myLosesAsTeammember": 1,
+			"myGamesAsTeam1": 2,
+			"myGamesAsTeam2": 0,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 30,
+		"playerStats": {
+			"myTotalGames": 1,
+			"myTotalWins": 0,
+			"myTotalLoses": 1,
+			"myGamesAsSpymaster": 0,
+			"myGamesAsTeammember": 1,
+			"myWinsAsTeammember": 0,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 0,
+			"myLosesAsTeammember": 1,
+			"myGamesAsTeam1": 1,
+			"myGamesAsTeam2": 0,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 31,
+		"playerStats": {
+			"myTotalGames": 9,
+			"myTotalWins": 7,
+			"myTotalLoses": 2,
+			"myGamesAsSpymaster": 0,
+			"myGamesAsTeammember": 9,
+			"myWinsAsTeammember": 7,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 0,
+			"myLosesAsTeammember": 2,
+			"myGamesAsTeam1": 5,
+			"myGamesAsTeam2": 4,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 32,
+		"playerStats": {
+			"myTotalGames": 8,
+			"myTotalWins": 2,
+			"myTotalLoses": 6,
+			"myGamesAsSpymaster": 3,
+			"myGamesAsTeammember": 5,
+			"myWinsAsTeammember": 1,
+			"myWinsAsSpymaster": 1,
+			"myLosesAsSpymaster": 2,
+			"myLosesAsTeammember": 4,
+			"myGamesAsTeam1": 4,
+			"myGamesAsTeam2": 4,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 1
+		}
+	},
+	{
+		"userId": 37,
+		"playerStats": {
+			"myTotalGames": 0,
+			"myTotalWins": 0,
+			"myTotalLoses": 0,
+			"myGamesAsSpymaster": 0,
+			"myGamesAsTeammember": 0,
+			"myWinsAsTeammember": 0,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 0,
+			"myLosesAsTeammember": 0,
+			"myGamesAsTeam1": 0,
+			"myGamesAsTeam2": 0,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 35,
+		"playerStats": {
+			"myTotalGames": 0,
+			"myTotalWins": 0,
+			"myTotalLoses": 0,
+			"myGamesAsSpymaster": 0,
+			"myGamesAsTeammember": 0,
+			"myWinsAsTeammember": 0,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 0,
+			"myLosesAsTeammember": 0,
+			"myGamesAsTeam1": 0,
+			"myGamesAsTeam2": 0,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 38,
+		"playerStats": {
+			"myTotalGames": 4,
+			"myTotalWins": 1,
+			"myTotalLoses": 3,
+			"myGamesAsSpymaster": 0,
+			"myGamesAsTeammember": 4,
+			"myWinsAsTeammember": 1,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 0,
+			"myLosesAsTeammember": 3,
+			"myGamesAsTeam1": 4,
+			"myGamesAsTeam2": 0,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 39,
+		"playerStats": {
+			"myTotalGames": 4,
+			"myTotalWins": 1,
+			"myTotalLoses": 3,
+			"myGamesAsSpymaster": 0,
+			"myGamesAsTeammember": 4,
+			"myWinsAsTeammember": 1,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 0,
+			"myLosesAsTeammember": 3,
+			"myGamesAsTeam1": 4,
+			"myGamesAsTeam2": 0,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 40,
+		"playerStats": {
+			"myTotalGames": 4,
+			"myTotalWins": 0,
+			"myTotalLoses": 4,
+			"myGamesAsSpymaster": 3,
+			"myGamesAsTeammember": 1,
+			"myWinsAsTeammember": 0,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 3,
+			"myLosesAsTeammember": 1,
+			"myGamesAsTeam1": 3,
+			"myGamesAsTeam2": 1,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 41,
+		"playerStats": {
+			"myTotalGames": 4,
+			"myTotalWins": 3,
+			"myTotalLoses": 1,
+			"myGamesAsSpymaster": 0,
+			"myGamesAsTeammember": 4,
+			"myWinsAsTeammember": 3,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 0,
+			"myLosesAsTeammember": 1,
+			"myGamesAsTeam1": 2,
+			"myGamesAsTeam2": 2,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 43,
+		"playerStats": {
+			"myTotalGames": 1,
+			"myTotalWins": 0,
+			"myTotalLoses": 1,
+			"myGamesAsSpymaster": 1,
+			"myGamesAsTeammember": 0,
+			"myWinsAsTeammember": 0,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 1,
+			"myLosesAsTeammember": 0,
+			"myGamesAsTeam1": 1,
+			"myGamesAsTeam2": 0,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 46,
+		"playerStats": {
+			"myTotalGames": 0,
+			"myTotalWins": 0,
+			"myTotalLoses": 0,
+			"myGamesAsSpymaster": 0,
+			"myGamesAsTeammember": 0,
+			"myWinsAsTeammember": 0,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 0,
+			"myLosesAsTeammember": 0,
+			"myGamesAsTeam1": 0,
+			"myGamesAsTeam2": 0,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 34,
+		"playerStats": {
+			"myTotalGames": 3,
+			"myTotalWins": 1,
+			"myTotalLoses": 2,
+			"myGamesAsSpymaster": 1,
+			"myGamesAsTeammember": 2,
+			"myWinsAsTeammember": 1,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 1,
+			"myLosesAsTeammember": 1,
+			"myGamesAsTeam1": 3,
+			"myGamesAsTeam2": 0,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 1
+		}
+	},
+	{
+		"userId": 49,
+		"playerStats": {
+			"myTotalGames": 4,
+			"myTotalWins": 3,
+			"myTotalLoses": 1,
+			"myGamesAsSpymaster": 4,
+			"myGamesAsTeammember": 0,
+			"myWinsAsTeammember": 0,
+			"myWinsAsSpymaster": 3,
+			"myLosesAsSpymaster": 1,
+			"myLosesAsTeammember": 0,
+			"myGamesAsTeam1": 4,
+			"myGamesAsTeam2": 0,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 36,
+		"playerStats": {
+			"myTotalGames": 3,
+			"myTotalWins": 0,
+			"myTotalLoses": 3,
+			"myGamesAsSpymaster": 0,
+			"myGamesAsTeammember": 3,
+			"myWinsAsTeammember": 0,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 0,
+			"myLosesAsTeammember": 3,
+			"myGamesAsTeam1": 1,
+			"myGamesAsTeam2": 2,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 51,
+		"playerStats": {
+			"myTotalGames": 4,
+			"myTotalWins": 1,
+			"myTotalLoses": 3,
+			"myGamesAsSpymaster": 0,
+			"myGamesAsTeammember": 4,
+			"myWinsAsTeammember": 1,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 0,
+			"myLosesAsTeammember": 3,
+			"myGamesAsTeam1": 2,
+			"myGamesAsTeam2": 2,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 50,
+		"playerStats": {
+			"myTotalGames": 4,
+			"myTotalWins": 1,
+			"myTotalLoses": 3,
+			"myGamesAsSpymaster": 3,
+			"myGamesAsTeammember": 1,
+			"myWinsAsTeammember": 1,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 3,
+			"myLosesAsTeammember": 0,
+			"myGamesAsTeam1": 0,
+			"myGamesAsTeam2": 4,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 48,
+		"playerStats": {
+			"myTotalGames": 1,
+			"myTotalWins": 0,
+			"myTotalLoses": 1,
+			"myGamesAsSpymaster": 0,
+			"myGamesAsTeammember": 1,
+			"myWinsAsTeammember": 0,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 0,
+			"myLosesAsTeammember": 1,
+			"myGamesAsTeam1": 0,
+			"myGamesAsTeam2": 1,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 8,
+		"playerStats": {
+			"myTotalGames": 3,
+			"myTotalWins": 3,
+			"myTotalLoses": 0,
+			"myGamesAsSpymaster": 0,
+			"myGamesAsTeammember": 3,
+			"myWinsAsTeammember": 3,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 0,
+			"myLosesAsTeammember": 0,
+			"myGamesAsTeam1": 3,
+			"myGamesAsTeam2": 0,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 52,
+		"playerStats": {
+			"myTotalGames": 3,
+			"myTotalWins": 1,
+			"myTotalLoses": 2,
+			"myGamesAsSpymaster": 0,
+			"myGamesAsTeammember": 3,
+			"myWinsAsTeammember": 1,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 0,
+			"myLosesAsTeammember": 2,
+			"myGamesAsTeam1": 1,
+			"myGamesAsTeam2": 2,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 53,
+		"playerStats": {
+			"myTotalGames": 8,
+			"myTotalWins": 4,
+			"myTotalLoses": 4,
+			"myGamesAsSpymaster": 0,
+			"myGamesAsTeammember": 8,
+			"myWinsAsTeammember": 4,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 0,
+			"myLosesAsTeammember": 4,
+			"myGamesAsTeam1": 5,
+			"myGamesAsTeam2": 3,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 54,
+		"playerStats": {
+			"myTotalGames": 5,
+			"myTotalWins": 2,
+			"myTotalLoses": 3,
+			"myGamesAsSpymaster": 1,
+			"myGamesAsTeammember": 4,
+			"myWinsAsTeammember": 2,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 1,
+			"myLosesAsTeammember": 2,
+			"myGamesAsTeam1": 2,
+			"myGamesAsTeam2": 3,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 55,
+		"playerStats": {
+			"myTotalGames": 8,
+			"myTotalWins": 4,
+			"myTotalLoses": 4,
+			"myGamesAsSpymaster": 2,
+			"myGamesAsTeammember": 6,
+			"myWinsAsTeammember": 3,
+			"myWinsAsSpymaster": 1,
+			"myLosesAsSpymaster": 1,
+			"myLosesAsTeammember": 3,
+			"myGamesAsTeam1": 1,
+			"myGamesAsTeam2": 7,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 2
+		}
+	},
+	{
+		"userId": 56,
+		"playerStats": {
+			"myTotalGames": 5,
+			"myTotalWins": 3,
+			"myTotalLoses": 2,
+			"myGamesAsSpymaster": 2,
+			"myGamesAsTeammember": 3,
+			"myWinsAsTeammember": 2,
+			"myWinsAsSpymaster": 1,
+			"myLosesAsSpymaster": 1,
+			"myLosesAsTeammember": 1,
+			"myGamesAsTeam1": 3,
+			"myGamesAsTeam2": 2,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 57,
+		"playerStats": {
+			"myTotalGames": 5,
+			"myTotalWins": 2,
+			"myTotalLoses": 3,
+			"myGamesAsSpymaster": 0,
+			"myGamesAsTeammember": 5,
+			"myWinsAsTeammember": 2,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 0,
+			"myLosesAsTeammember": 3,
+			"myGamesAsTeam1": 2,
+			"myGamesAsTeam2": 3,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 1
+		}
+	},
+	{
+		"userId": 58,
+		"playerStats": {
+			"myTotalGames": 5,
+			"myTotalWins": 2,
+			"myTotalLoses": 3,
+			"myGamesAsSpymaster": 1,
+			"myGamesAsTeammember": 4,
+			"myWinsAsTeammember": 2,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 1,
+			"myLosesAsTeammember": 2,
+			"myGamesAsTeam1": 2,
+			"myGamesAsTeam2": 3,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 59,
+		"playerStats": {
+			"myTotalGames": 7,
+			"myTotalWins": 3,
+			"myTotalLoses": 4,
+			"myGamesAsSpymaster": 2,
+			"myGamesAsTeammember": 5,
+			"myWinsAsTeammember": 2,
+			"myWinsAsSpymaster": 1,
+			"myLosesAsSpymaster": 1,
+			"myLosesAsTeammember": 3,
+			"myGamesAsTeam1": 2,
+			"myGamesAsTeam2": 5,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 60,
+		"playerStats": {
+			"myTotalGames": 1,
+			"myTotalWins": 0,
+			"myTotalLoses": 1,
+			"myGamesAsSpymaster": 0,
+			"myGamesAsTeammember": 1,
+			"myWinsAsTeammember": 0,
+			"myWinsAsSpymaster": 0,
+			"myLosesAsSpymaster": 0,
+			"myLosesAsTeammember": 1,
+			"myGamesAsTeam1": 0,
+			"myGamesAsTeam2": 1,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{
+		"userId": 61,
+		"playerStats": {
+			"myTotalGames": 6,
+			"myTotalWins": 2,
+			"myTotalLoses": 4,
+			"myGamesAsSpymaster": 2,
+			"myGamesAsTeammember": 4,
+			"myWinsAsTeammember": 1,
+			"myWinsAsSpymaster": 1,
+			"myLosesAsSpymaster": 1,
+			"myLosesAsTeammember": 3,
+			"myGamesAsTeam1": 1,
+			"myGamesAsTeam2": 5,
+			"myGamesAsTeam3": 0,
+			"blackCardsTapped": 0
+		}
+	},
+	{}
+]

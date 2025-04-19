@@ -1,0 +1,268 @@
+
+
+need a cauldron as a submit counter
+>> add to list of submitted items
+
+>> generate a random recipe list of items to hand in
+
+>>Button
+>>> button action checks if recipe is correct or not.
+everyone gets revealed wat has been put in (also when its not correct).
+if correct: good ppl win
+if not correct: voting opens up.
+vote on who to kick AND parallel vote on if to flush or not
+if last bad guy gets kicked, good ppl win
+
+if ONE good person gets kicked, cultist wins
+general TIMER: 20mins or so, if cant make it in time, cultist wins. flush as many times (potential different game modes
+5items per recipe (adjiustable)
+
+random 1-2 recipe reader (Can also be cultist) that sees the recipe for that round.
+recipe and recipe reader resets every round
+
+1-2 (customizable) cultists be selected at the start.
+cultist always sees and knows recipe
+
+
+good players = team 1
+bad players = team 2
+
+
+
+potion ingredients room (crow foot, bones, eyeball), chopping
+
+
+
+4 actions:
+cook/Smelt
+chop
+mörser
+enchant
+
+
+
+metal/ore/crystal room (ore/rock, crystal, coal), furnace
+
+ore/rock
+->chop: poop
+->cook: iron bar
+->enchant: gold nugget
+->mörser: grey powder
+
+iron bar
+->enchant: copper bar
+->mörser: silver powder
+->chop: poop
+->cook: poop
+
+gold nugget
+->smelt: gold bar
+->mörser: gold powder
+->chop: gold gem
+->enchant: poop
+
+grey powder
+->chop: poop
+->mörser: poop
+->enchant: enchanted grey powder
+->cook: coal
+
+silver powder
+->chop: poop
+->mörser: poop
+->enchant: enchanted silver powder
+->cook: coal
+
+
+copper bar
+->mörser: copper powder
+->chop: poop
+->enchant: poop
+
+gold bar
+->mörser: gold powder
+->chop: poop
+->enchant: poop
+->cook: poop
+
+
+gold powder
+->enchant:enchanted gold powder
+->all poop
+
+copper powder
+->enchant:enchanted copper powder
+->all poop
+
+enchanted grey powder
+->all poop
+
+enchanted silver powder
+->all poop
+
+enchanted copper powder
+->all poop
+
+enchanted gold powder
+->all poop
+-----------
+
+crystal -chop->gem
+crystal -cook->goop
+crystal -mörser->powder
+crystal-enchant->next color blu green red blu..
+gem -cook->goop
+gem chop->poop
+gem mörser->powder
+gem enchant-> change color
+goop enchant into orb
+rest goop poop
+orb all poop
+powder, enchanted powder, rest all poop
+
+
+---------
+
+COAL
+->chop: poop 
+->mörser: black powder
+->enchant: diamond
+->cook: firestone
+
+
+black powder
+->chop: poop 
+->mörser:poop
+->enchant: enchanted black powder
+->cook: poop
+
+diamond
+->chop: diamond glass
+->mörser: poop
+->enchant: poop
+->cook: poop
+
+enchanted black powder
+->all poop
+
+
+diamond glass
+->cook: diamond statue, rest poop
+
+firestone
+->enchant: fire orb
+->rest poop
+
+fire orb
+->all poop
+
+------------------------------------
+
+
+animals room (crow foot, bones, eyeball), chopping
+
+bones:
+->mörser: bonemeal/whitepowder
+->cook: ghost
+->enchant: bone talisman
+->chop: bonesticks
+
+
+bonemeal/whitepowder
+->enchant: enchanted white powder
+->cook: many ghosts dx
+->rest poop
+
+
+ghost
+->chop: many ghosts
+->mörser: poop
+->cook: fire ghost
+->enchant: holy ghost
+
+many ghosts
+->all poop
+
+holy ghost
+->all poop
+
+fire ghost
+->all poop
+
+
+bone talisman
+->all poop
+
+bonesticks
+->cook: many ghosts
+->mörser: bonemeal/whitepowder
+->enchant: weird bone statue skeleton man
+->chop: poop
+
+enchanted white powder
+->all poop
+
+weird bone statue skeleton man
+->all poop
+
+
+
+
+crow foot
+->chop: feather
+->cook: chicken nugget
+->enchant: demonic witchcraft shit
+->mörser: black goop
+
+feather
+->chop: poop
+->mörser: poop
+->cook: poop
+->enchant: dreamcatcher
+
+
+chicken nugget
+->cook: burnt meat
+->chop: meat chunk
+->mörser: black goop
+->enchant: enchanted chicken nugget
+
+demonic witchcraft shit
+->all poop
+
+black goop
+->all poop
+->enchant: orb of death
+ 
+orb of death
+->all poop
+ 
+dreamcatcher
+->all poop
+
+burnt meat
+->all poop
+
+meat chunk
+-> cook: burnt meat
+-> mörser: black goop
+-> chop: poop
+->enchant: poop
+
+enchanted chicken nugget
+-> cook: burnt meat
+->enchant: poop
+->chop: meat chunk
+->mörser: black goop
+
+
+
+
+
+
+
+
+
+
+
+

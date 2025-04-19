@@ -1,0 +1,42 @@
+FEATURES
+-add sound effects
+-items dont have to be always inside of the refresh of quickGameState, they should only be in there if they changed (either hands changed or cooking timer expired)
+
+
+MORE OF THE SAME
+-more kitchens
+-more kitchen appearances
+-more character customization
+-more recipes with ingredients
+
+
+
+HATS:
+beret
+beaverhat lol
+leprauchan hat (with black mask is a bowl hat)
+flat chef hat
+(firefighter/bob the builder) helmet
+winter hat (bommelmütze)
+monocle
+turban
+lorbeerkranz
+fake moustache and glasses
+head gunshot wound
+fake arrow through head
+piece of butter
+
+FACES:
+lion
+bird/eagle/owl
+boar
+pig (in a blanket)
+derp elf: (https://www.vhv.rs/viewpic/hTbwbxT_elf-runescape-png-download-runescape-gnome-png-transparent/)
+
+BODIES:
+wizard robe
+pyjama?
+trenchcoat detective xd
+tarnfarben soldat
+blanket
+tinfoil wrap

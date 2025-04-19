@@ -1,0 +1,314 @@
+[
+	{
+		"userId": 48,
+		"playerStats": {
+			"myTotalGames": 0,
+			"myTotalWins": 0,
+			"myTotalLosses": 0,
+			"myTeamCaptainGames": 0,
+			"myTeamCaptainWins": 0,
+			"myTeamCaptainLosses": 0,
+			"myExplainRate": 0,
+			"myCardsExplained": 0
+		}
+	},
+	{
+		"userId": 22,
+		"playerStats": {
+			"myTotalGames": 2,
+			"myTotalWins": 1,
+			"myTotalLosses": 1,
+			"myTeamCaptainGames": 2,
+			"myTeamCaptainWins": 1,
+			"myTeamCaptainLosses": 1,
+			"myExplainRate": 0,
+			"myCardsExplained": 1
+		}
+	},
+	{
+		"userId": 36,
+		"playerStats": {
+			"myTotalGames": 2,
+			"myTotalWins": 2,
+			"myTotalLosses": 0,
+			"myTeamCaptainGames": 1,
+			"myTeamCaptainWins": 1,
+			"myTeamCaptainLosses": 0,
+			"myExplainRate": 0,
+			"myCardsExplained": 1
+		}
+	},
+	{
+		"userId": 7,
+		"playerStats": {
+			"myTotalGames": 3,
+			"myTotalWins": 1,
+			"myTotalLosses": 2,
+			"myTeamCaptainGames": 1,
+			"myTeamCaptainWins": 1,
+			"myTeamCaptainLosses": 0,
+			"myExplainRate": 0,
+			"myCardsExplained": 0
+		}
+	},
+	{
+		"userId": 10,
+		"playerStats": {
+			"myTotalGames": 4,
+			"myTotalWins": 2,
+			"myTotalLosses": 2,
+			"myTeamCaptainGames": 3,
+			"myTeamCaptainWins": 1,
+			"myTeamCaptainLosses": 2,
+			"myExplainRate": 0,
+			"myCardsExplained": 1
+		}
+	},
+	{
+		"userId": 2,
+		"playerStats": {
+			"myTotalGames": 5,
+			"myTotalWins": 3,
+			"myTotalLosses": 2,
+			"myTeamCaptainGames": 2,
+			"myTeamCaptainWins": 1,
+			"myTeamCaptainLosses": 1,
+			"myExplainRate": 5.1818181818181825,
+			"myCardsExplained": 22
+		}
+	},
+	{
+		"userId": 12,
+		"playerStats": {
+			"myTotalGames": 4,
+			"myTotalWins": 3,
+			"myTotalLosses": 1,
+			"myTeamCaptainGames": 0,
+			"myTeamCaptainWins": 0,
+			"myTeamCaptainLosses": 0,
+			"myExplainRate": 0,
+			"myCardsExplained": 0
+		}
+	},
+	{
+		"userId": 41,
+		"playerStats": {
+			"myTotalGames": 1,
+			"myTotalWins": 1,
+			"myTotalLosses": 0,
+			"myTeamCaptainGames": 0,
+			"myTeamCaptainWins": 0,
+			"myTeamCaptainLosses": 0,
+			"myExplainRate": 3,
+			"myCardsExplained": 1
+		}
+	},
+	{
+		"userId": 50,
+		"playerStats": {
+			"myTotalGames": 1,
+			"myTotalWins": 0,
+			"myTotalLosses": 1,
+			"myTeamCaptainGames": 0,
+			"myTeamCaptainWins": 0,
+			"myTeamCaptainLosses": 0,
+			"myExplainRate": 0,
+			"myCardsExplained": 1
+		}
+	},
+	{
+		"userId": 51,
+		"playerStats": {
+			"myTotalGames": 1,
+			"myTotalWins": 0,
+			"myTotalLosses": 1,
+			"myTeamCaptainGames": 0,
+			"myTeamCaptainWins": 0,
+			"myTeamCaptainLosses": 0,
+			"myExplainRate": 0,
+			"myCardsExplained": 0
+		}
+	},
+	{
+		"userId": 35,
+		"playerStats": {
+			"myTotalGames": 0,
+			"myTotalWins": 0,
+			"myTotalLosses": 0,
+			"myTeamCaptainGames": 0,
+			"myTeamCaptainWins": 0,
+			"myTeamCaptainLosses": 0,
+			"myExplainRate": 0,
+			"myCardsExplained": 0
+		}
+	},
+	{
+		"userId": 57,
+		"playerStats": {
+			"myTotalGames": 1,
+			"myTotalWins": 0,
+			"myTotalLosses": 1,
+			"myTeamCaptainGames": 0,
+			"myTeamCaptainWins": 0,
+			"myTeamCaptainLosses": 0,
+			"myExplainRate": 0,
+			"myCardsExplained": 0
+		}
+	},
+	{
+		"userId": 58,
+		"playerStats": {
+			"myTotalGames": 1,
+			"myTotalWins": 0,
+			"myTotalLosses": 1,
+			"myTeamCaptainGames": 1,
+			"myTeamCaptainWins": 0,
+			"myTeamCaptainLosses": 1,
+			"myExplainRate": 0,
+			"myCardsExplained": 0
+		}
+	},
+	{
+		"userId": 54,
+		"playerStats": {
+			"myTotalGames": 1,
+			"myTotalWins": 1,
+			"myTotalLosses": 0,
+			"myTeamCaptainGames": 0,
+			"myTeamCaptainWins": 0,
+			"myTeamCaptainLosses": 0,
+			"myExplainRate": 0,
+			"myCardsExplained": 0
+		}
+	},
+	{
+		"userId": 55,
+		"playerStats": {
+			"myTotalGames": 2,
+			"myTotalWins": 0,
+			"myTotalLosses": 2,
+			"myTeamCaptainGames": 0,
+			"myTeamCaptainWins": 0,
+			"myTeamCaptainLosses": 0,
+			"myExplainRate": 0,
+			"myCardsExplained": 0
+		}
+	},
+	{
+		"userId": 56,
+		"playerStats": {
+			"myTotalGames": 1,
+			"myTotalWins": 1,
+			"myTotalLosses": 0,
+			"myTeamCaptainGames": 0,
+			"myTeamCaptainWins": 0,
+			"myTeamCaptainLosses": 0,
+			"myExplainRate": 0,
+			"myCardsExplained": 0
+		}
+	},
+	{
+		"userId": 15,
+		"playerStats": {
+			"myTotalGames": 2,
+			"myTotalWins": 1,
+			"myTotalLosses": 1,
+			"myTeamCaptainGames": 0,
+			"myTeamCaptainWins": 0,
+			"myTeamCaptainLosses": 0,
+			"myExplainRate": 0,
+			"myCardsExplained": 0
+		}
+	},
+	{
+		"userId": 53,
+		"playerStats": {
+			"myTotalGames": 2,
+			"myTotalWins": 1,
+			"myTotalLosses": 1,
+			"myTeamCaptainGames": 0,
+			"myTeamCaptainWins": 0,
+			"myTeamCaptainLosses": 0,
+			"myExplainRate": 0,
+			"myCardsExplained": 0
+		}
+	},
+	{
+		"userId": 13,
+		"playerStats": {
+			"myTotalGames": 2,
+			"myTotalWins": 0,
+			"myTotalLosses": 2,
+			"myTeamCaptainGames": 0,
+			"myTeamCaptainWins": 0,
+			"myTeamCaptainLosses": 0,
+			"myExplainRate": 0,
+			"myCardsExplained": 0
+		}
+	},
+	{
+		"userId": 60,
+		"playerStats": {
+			"myTotalGames": 0,
+			"myTotalWins": 0,
+			"myTotalLosses": 0,
+			"myTeamCaptainGames": 0,
+			"myTeamCaptainWins": 0,
+			"myTeamCaptainLosses": 0,
+			"myExplainRate": 0,
+			"myCardsExplained": 0
+		}
+	},
+	{
+		"userId": 59,
+		"playerStats": {
+			"myTotalGames": 1,
+			"myTotalWins": 1,
+			"myTotalLosses": 0,
+			"myTeamCaptainGames": 0,
+			"myTeamCaptainWins": 0,
+			"myTeamCaptainLosses": 0,
+			"myExplainRate": 0,
+			"myCardsExplained": 0
+		}
+	},
+	{
+		"userId": 46,
+		"playerStats": {
+			"myTotalGames": 1,
+			"myTotalWins": 1,
+			"myTotalLosses": 0,
+			"myTeamCaptainGames": 1,
+			"myTeamCaptainWins": 1,
+			"myTeamCaptainLosses": 0,
+			"myExplainRate": 6.333333333333333,
+			"myCardsExplained": 6
+		}
+	},
+	{
+		"userId": 34,
+		"playerStats": {
+			"myTotalGames": 1,
+			"myTotalWins": 0,
+			"myTotalLosses": 1,
+			"myTeamCaptainGames": 1,
+			"myTeamCaptainWins": 0,
+			"myTeamCaptainLosses": 1,
+			"myExplainRate": 6.333333333333333,
+			"myCardsExplained": 6
+		}
+	},
+	{
+		"userId": 38,
+		"playerStats": {
+			"myTotalGames": 1,
+			"myTotalWins": 0,
+			"myTotalLosses": 1,
+			"myTeamCaptainGames": 0,
+			"myTeamCaptainWins": 0,
+			"myTeamCaptainLosses": 0,
+			"myExplainRate": 0,
+			"myCardsExplained": 0
+		}
+	}
+]

@@ -1,0 +1,28 @@
+Gameplay is just like cookaloor with the following changes:
+-Only 1 player can see the recipe and the order of the recipe (you can not see who this person is in any way)
+-Only 1 player is the cultist: their goal is to make sure the correct recipe is not handed in (you can not see who this person is in any way, and they could be the recipe player)
+-There are 4 four rooms, you can only see whats happening inside the room that you are in
+-if the wrong recipe is handed in, or no recipe is handed in in time, the alchemists can still win if they manage to vote out  the cultist in a voting round at the end
+
+2 walls above eachother arent double rendered
+tools are items
+we dont need tools
+when red button press:
+-if correct recipe win
+-if wrong recipe show the recipe
+-vote on who to kick (wrong person kick is loss)
+-vote on to flush or not
+
+
+
+
+TWO MANUAL
+-chopping (turning into small pieces)
+-mortar and pestle (squishing/powderizing)
+
+
+TWO AUTOMATIC
+-cooking/smelting (also turns gold into a bar)
+-enchanting (putting arcane energy into something: turning it into an element, radiating an aura, or turning it into an orb)
+
+

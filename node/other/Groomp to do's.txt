@@ -1,0 +1,53 @@
+----------------------------------------------------------------------------
+TO DO GENERAL:
+You should be able to send messages by pressing enter in the chat box, instead of having to click the send button
+I think the login should be some kind of spin off of the grid phone login system that would be so unique there would be no phishing
+We should stop using cookies
+Setup voedgoem.net:
+-purchase voedgoem.net
+-purchase hosting
+-install and run the git repository on the server
+-set up the dns
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+TO DO WOERDGOEM:
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+TO DO COOKALOOR:
+in multiplayer the team recipes are assigned wrong, team blue gets all of them and they are wrong color
+one of the character their character json got broken and showed up all wrong
+the controller was a little bit laggy (lag fix make a mini gamestate with only movement and send on change of direction)
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+TO DO TETRYS:
+the ui on phone looks bad
+the line width with multiple teams is unfair.
+the buttons should be bigger
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+TO DO 31 SECONDS:
+expand the word list with more complicated words
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+TO DO WEREWOLVES:
+Build a helper which is either in real life mode or in phone mode,
+in real life mode the game master has to add players and drag them onto a table, 
+in phone mode everyone clicks a spot on the table
+
+----------------------------------------------------------------------------'
+
+----------------------------------------------------------------------------
+TO DO DWORF:
+Think of concept
+
+----------------------------------------------------------------------------

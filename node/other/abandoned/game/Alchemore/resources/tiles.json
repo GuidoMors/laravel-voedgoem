@@ -1,0 +1,18 @@
+{	
+	"table1":{"name": "table1", "img":"static/Cookaloor/images/tiles/table_1.jpg", "charges":0,"dispenserRate": 0, "isBlocking":true, "action":"", "dispenserItem":"", "isForTools": false, "progress":0, "progressType":"manual"},
+	"table2":{"name": "table2", "img":"static/Alchemore/images/tiles/table_2.png", "charges":0,"dispenserRate": 0, "isBlocking":true, "action":"", "dispenserItem":"", "isForTools": false, "progress":0, "progressType":"manual"},
+	"wall1":{"name": "wall1", "img":"static/Alchemore/images/tiles/wall_1.png", "charges":0,"dispenserRate": 0, "isBlocking":true, "action":"", "dispenserItem":"", "isForTools": false, "progress":0, "progressType":"wall"},
+	"stonefloor1":{"name": "stonefloor1", "img":"static/Alchemore/images/tiles/stonefloor_1.png", "charges":0,"dispenserRate": 0, "isBlocking":false, "action":"", "dispenserItem":"", "isForTools": false, "progress":0, "progressType":""},
+	"woodenfloor1":{"name": "woodenfloor1", "img":"static/Alchemore/images/tiles/woodenfloor_1.png", "charges":0,"dispenserRate": 0, "isBlocking":false, "action":"", "dispenserItem":"", "isForTools": false, "progress":0, "progressType":""},
+	"cuttingboard1":{"name": "cuttingboard1", "img":"static/Cookaloor/images/tiles/cuttingboard_1.jpg", "charges":0,"dispenserRate": 0, "isBlocking":true, "action":"chop", "dispenserItem":"",  "isForTools": true,"progress":5, "progressType":"manual"},
+	"furnace1":{"name": "furnace1", "img":"static/Cookaloor/images/tiles/furnace_1.jpg", "charges":0,"dispenserRate": 0, "isBlocking":true, "action":"cook", "dispenserItem":"",  "isForTools": true,"progress":10, "progressType":"auto"},
+	"enchanttable1":{"name": "enchanttable1", "img":"static/Alchemore/images/tiles/enchanttable.jpg", "charges":0,"dispenserRate": 0, "isBlocking":true, "action":"enchant", "dispenserItem":"",  "isForTools": true,"progress":10, "progressType":"auto"},
+	"mortar1":{"name": "mortar1", "img":"static/Alchemore/images/tiles/mortar.jpg", "charges":0,"dispenserRate": 0, "isBlocking":true, "action":"pestle", "dispenserItem":"",  "isForTools": true,"progress":5, "progressType":"manual"},
+	"stonedoor1":{"name": "stonedoor1", "img":"static/Alchemore/images/tiles/stonefloor_1.png", "charges":0,"dispenserRate": 0, "isBlocking":false, "action":"door", "dispenserItem":"", "isForTools": false, "progress":0, "progressType":"wall"},
+	"woodendoor1":{"name": "woodendoor1", "img":"static/Alchemore/images/tiles/woodenfloor_1.png", "charges":0,"dispenserRate": 0, "isBlocking":false, "action":"door", "dispenserItem":"", "isForTools": false, "progress":0, "progressType":"wall"},
+	"tomatodispenser":{"name": "tomatodispenser", "img":"static/Alchemore/images/tiles/dispenser_tomato_1.jpg", "charges":-1,"dispenserRate": 0, "isBlocking":true, "action":"dispenser", "dispenserItem":"tomato", "isForTools": false, "progress":0, "progressType":"manual"},
+	"cauldron":{"name": "cauldron", "img":"static/Alchemore/images/tiles/submitcounter_1.jpg", "charges":0,"dispenserRate": 0, "isBlocking":true, "action":"submit", "dispenserItem":"", "isForTools": false, "progress":0, "progressType":"manual"},
+	"stopbutton":{"name": "stopbutton", "img":"static/Alchemore/images/tiles/furnace_1.jpg", "charges":0,"dispenserRate": 0, "isBlocking":true, "action":"stop", "dispenserItem":"", "isForTools": false, "progress":0, "progressType":"manual"}
+	
+
+}
