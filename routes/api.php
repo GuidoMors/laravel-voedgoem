@@ -10,3 +10,5 @@ Route::get('/users', function () {
 });
 
 Route::put('/users/game', [UserController::class, 'handleJoinGame']);
+
+Route::post('/update-socket-id', [UserController::class, 'updateSocketId']);

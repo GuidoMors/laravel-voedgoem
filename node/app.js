@@ -27,6 +27,7 @@ var URL;
 var LOCALIP;
 var PUBLICIP;
 var PORT;
+var gameServer;
 
 //
 // THE SETUP
@@ -53,7 +54,7 @@ async function setupVoedgoem() {
 
 function bootVoedgoemServer(LOCALIP, PUBLICIP, PORT, QRCODEDATA, GAMES){
     const ServerController = require('./server.js');
-    var gameServer = new ServerController();
+    gameServer = new ServerController();
     gameServer.run(server, io);
     
     app.set('port', PORT);
@@ -83,6 +84,18 @@ function bootVoedgoemServer(LOCALIP, PUBLICIP, PORT, QRCODEDATA, GAMES){
         console.log('Starting server: ' + PUBLICIP +':'+ PORT);
     });
 }
+
+app.post('/user-logged-in', express.json(), (req, res) => {
+    var { id, name, socketId } = req.body;
+
+    console.log('User logged in:', name , id);
+
+    var userSocket = io.sockets.sockets.get(socketId);
+
+    gameServer.doOnSuccessfulLogin(userSocket, userId, userName);
+
+    res.status(200).json({ status: 'success' });
+});
 
 
 //

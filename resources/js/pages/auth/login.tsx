@@ -32,6 +32,7 @@ export default function Login({ status, canResetPassword }: LoginProps) {
     });
 
     const submit: FormEventHandler = (e) => {
+        console.log('submit!');
         e.preventDefault();
         post(route('login'), {
             onFinish: () => reset('password'),
@@ -65,7 +66,7 @@ export default function Login({ status, canResetPassword }: LoginProps) {
                         <InputError message={errors.name} />
                     </div>
 
-                    <div className="grid gap-2">
+                    <div className="grid">
                         <div className="flex items-center">
                             {canResetPassword && (
                                 <TextLink href={route('password.request')} className="ml-auto text-sm" tabIndex={5}>
@@ -104,7 +105,7 @@ export default function Login({ status, canResetPassword }: LoginProps) {
                 </div>
 
                 <div className="text-muted-foreground text-center text-sm">
-                    <TextLink href={route('register')} tabIndex={5}>
+                    <TextLink href={route('register')} tabIndex={5} className="neonwhite">
                         Sign up
                     </TextLink>
                 </div>

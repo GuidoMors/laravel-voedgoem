@@ -17,14 +17,14 @@ Route::middleware('auth')->group(function () use ($games) {
 
     Route::get('/', function () use ($games) {
         return Inertia::render('index', [
-            'game' => 'index',
+            'game' => 'Lobby',
             'user' => Auth::user(),
         ]);
     })->name('index');
 
     foreach ($games as $game) {
         Route::get('/' . $game, function () use ($game) {
-            return Inertia::render($game, [
+            return Inertia::render('/games/'.$game, [
                 'game' => $game,
                 'user' => Auth::user(),
             ]);

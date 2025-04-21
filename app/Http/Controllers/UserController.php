@@ -20,8 +20,24 @@ class UserController extends Controller
     $user->game_type = $request->input('game_type');
     $user->save();
 
-    error_log("TEST: ".$userId);
-
     return response()->json($user);
+    }
+
+    public function updateSocketId(Request $request)
+    {
+        $validated = $request->validate([
+            'socketId' => 'required|string',
+        ]);
+
+        $user = auth()->user();
+
+        if ($user) {
+            $user->socketId = $validated['socketId'];
+            $user->save();
+
+            return response()->json(['status' => 'success', 'message' => 'Socket ID updated successfully']);
+        }
+
+        return response()->json(['status' => 'error', 'message' => 'User not authenticated'], 401);
     }
 }

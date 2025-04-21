@@ -1,5 +1,5 @@
 /*Script to render the general Lobby that provides an overview over all currently hosted games.*/
-var GAME_NAME = "lobby";
+var GAME_NAME = "Lobby";
 
 function clearLobby(){
 	deleteGuiElement('lobbyDiv');
@@ -19,9 +19,17 @@ function drawLobby(gameRooms, games){
 	renderLogo();
 	enableTab();
 
-	var left = document.getElementById("left");
+	var right = document.getElementById("right");
 	var qrDiv = document.createElement("div");
 	qrDiv.setAttribute("id","qrDiv");
+	qrDiv.classList.add("qrDiv");
+	qrDiv.classList.add("neonwhite");
+	qrDiv.classList.add("neonborder");
+	right.appendChild(qrDiv);
+
+	var left = document.getElementById("left");
+	var qrDiv = document.createElement("div");
+	qrDiv.setAttribute("id","qrDivTwo");
 	qrDiv.classList.add("qrDiv");
 	qrDiv.classList.add("neonwhite");
 	qrDiv.classList.add("neonborder");
@@ -31,16 +39,24 @@ function drawLobby(gameRooms, games){
     .then(response => response.json())
     .then(data => {
         var qrDiv = document.getElementById("qrDiv");
-        
         while (qrDiv.firstChild) {
             qrDiv.removeChild(qrDiv.firstChild);
+        }
+
+		var qrDivTwo = document.getElementById("qrDivTwo"); 
+        while (qrDivTwo.firstChild) {
+            qrDivTwo.removeChild(qrDivTwo.firstChild);
         }
         
         var img = document.createElement("img");
         img.src = data.src;
         img.alt = "QR Code";
-        
-        qrDiv.appendChild(img);
+		qrDiv.appendChild(img);
+
+		var img = document.createElement("img");
+        img.src = data.src;
+        img.alt = "QR Code";
+        qrDivTwo.appendChild(img);
     })
     .catch(err => {
         console.error('Error fetching QR code:', err);

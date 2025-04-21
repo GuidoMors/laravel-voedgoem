@@ -4,7 +4,7 @@ var userId =  0;
 var adminUser;
 var gameId=0;
 var gameType="";
-var users=[]; // simple list of userId, username
+var users=[];
 var gameRoom;
 var isLoggedIn=false;
 
@@ -99,8 +99,6 @@ socket.on('loginSuccessful', function(myUserName, myUserId) {
 	isLoggedIn=true;
 	refreshBrowserTabUserName();
 	//drawLobby();
-
-	
 });
 
 socket.on('loginFail', function(myUserName, message, isAuto) {

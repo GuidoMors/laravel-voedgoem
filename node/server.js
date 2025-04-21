@@ -63,6 +63,8 @@ class ServerController{
 		socket.on('joinGameRoom', (userId, gameId, pw) => this.joinGameRoom(socket, userId, gameId,pw)); 	
 		socket.on('leaveGameRoom', (userId, gameId) => this.leaveGameRoom(userId, gameId)); 	
 		socket.on('requestChangeGamePassword', (newGamePw, gameId) => this.changeGamePassword(newGamePw, gameId)); 	
+
+		socket.on('laravelLogin', (userId, userName) => this.doOnSuccessfulLogin(socket, userId, userName)); 	
 		
 
 		//TO DO
@@ -180,7 +182,7 @@ class ServerController{
 		});
 
 		gameRoom.players.push(userId);
-        if(gameId >0){
+        if(gameId > 0){
             this.pushLogMessage("{0} joined game room '{1}'.",[this.getUserNameByUserId(userId), gameRoom.gameName],  false, false, 0);   
         }
 
@@ -193,7 +195,7 @@ class ServerController{
 
 	joinGameRoom(socket, userId, gameId, enteredPassword){
 		var gameRoom=this.getGameRoomById(gameId);
-		if(gameId == 0 || (gameRoom?.pw && gameRoom.pw==enteredPassword)){
+		if(gameRoom?.pw && gameRoom.pw==enteredPassword){
 			
 			if(gameRoom.players.length < gameRoom.maxPlayers || gameRoom.maxPlayers=="∞"){
 				this.joinGame(socket, userId, gameId);
@@ -270,7 +272,7 @@ class ServerController{
 			this.io.to(socket.id).emit("loginFail", userName,message, false);
 		}
 		else{	
-			this.doOnSuccessfulLogin(socket,userId, userName);		
+			this.doOnSuccessfulLogin(socket, userId, userName);		
 		}
 	}
 
@@ -312,8 +314,6 @@ class ServerController{
             var gameId=this.getGameIdByUser(userId);
             this.pushLogMessage("{0} has connected.",[userName],  false, false, gameId);
     }
-
- 
 	
 	requestPlayerSignup(socket, userName, newPw){
 		if(this.userNameExists(userName)){

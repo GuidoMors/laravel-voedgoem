@@ -8,6 +8,8 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
 use Inertia\Inertia;
 use Inertia\Response;
 
@@ -33,6 +35,12 @@ class AuthenticatedSessionController extends Controller
 
         $request->session()->regenerate();
 
+        $user = Auth::user();
+
+        $socketId = 0; // to do
+
+        $this->sendLoginToNode($user, $socketId);
+
         return redirect()->intended(route('index', absolute: false));
     }
 
@@ -48,4 +56,20 @@ class AuthenticatedSessionController extends Controller
 
         return redirect('/');
     }
+
+    public function sendLoginToNode($user, $socketId): void
+    {
+        try {
+
+            $response = Http::post('http://localhost:2222/user-logged-in', [
+                'id' => $user->id,
+                'name' => $user->name,
+                'socketId' => $socketId,
+            ]);
+
+        } catch (\Exception $e) {
+            \Log::error('Error sending login info to Node.js: ' . $e->getMessage());
+        }
+    }
+
 }

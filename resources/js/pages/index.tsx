@@ -16,6 +16,7 @@ const Index = () => {
 
   const handleLogout: React.FormEventHandler = (e) => {
     e.preventDefault();
+    socket.emit('logoutPlayer', user.name, user.id);
     post(route('logout'));
   };
 
@@ -29,8 +30,6 @@ const Index = () => {
       loadScript('http://localhost:2222/static/common/login.js');
       loadScript('http://localhost:2222/static/common/voedgoemMainMenu.js');
       loadScript('http://localhost:2222/static/common/renderTabs.js');
-
-      socket.emit("joinGameRoom", user.id, 0, "" );
 
       return () => {
         socket.disconnect();
@@ -53,7 +52,7 @@ const Index = () => {
         <div id="genericMenuDiv" className="genericMenuDiv">
            {/* TO DO */}
           <button onClick={() => (window as any).changeName?.()} id="changeNameButton">Change Name</button> 
-          <button onSubmit={handleLogout} id="logoutButton">Logout</button>
+          <button onClick={handleLogout} id="logoutButton">Logout</button>
           <button onClick={() => (window as any).activatePlayerlistTab?.()} id="playerlistButton">Who's Here?</button>
           <button onClick={() => (window as any).activateChatTab?.()} id="backToChatButton">Back to Chat</button>
         </div>
